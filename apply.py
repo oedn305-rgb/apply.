@@ -8,17 +8,16 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 # --- جلب الإعدادات من Secrets ---
-# تأكد أن الأسماء في GitHub Secrets هي MY_EMAIL و EMAIL_PASS
 EMAIL_USER = os.getenv('MY_EMAIL')
 EMAIL_PASS = os.getenv('EMAIL_PASS')
-MY_NAME = "اسمك الكامل" # ضع اسمك الحقيقي هنا
+# هنا اكتب اسمك الحقيقي ليظهر في نهاية الرسالة
+MY_NAME = "اكتب اسمك هنا" 
 
-# إعدادات الملفات (حسب ما هو موجود في مستودعك)
+# إعدادات الملفات
 CV_FILE_PATH = "cv.pdf.pdf" 
 FILE_NAME = 'all_emails.txt'
 
 def run_job_search_bot():
-    # التأكد من وجود الأسرار والملفات
     if not EMAIL_USER or not EMAIL_PASS:
         print("❌ خطأ: لم يتم العثور على EMAIL_PASS أو MY_EMAIL في Secrets!")
         return
@@ -34,14 +33,12 @@ def run_job_search_bot():
         print("🎉 القائمة فارغة! تم إرسال كافة الإيميلات.")
         return
 
-    # إرسال 200 إيميل يومياً
     to_send = emails[:200]
     remaining = emails[200:]
 
     print(f"🚀 انطلاق.. محاولة إرسال {len(to_send)} إيميل بمقدمة احترافية...")
 
     try:
-        # الاتصال بسيرفر Gmail
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
         server.login(EMAIL_USER, EMAIL_PASS)
@@ -51,10 +48,9 @@ def run_job_search_bot():
                 msg = MIMEMultipart()
                 msg['From'] = f"{MY_NAME} <{EMAIL_USER}>"
                 msg['To'] = email
-                # عنوان جذاب للإيميل
-                msg['Subject'] = f"Job Application - {MY_NAME} - Professional Excellence"
+                msg['Subject'] = f"Job Application - {MY_NAME}"
 
-                # مقدمة مقنعة (تجمع بين الاحترافية والطموح)
+                # المقدمة الاحترافية بدون عبارة "اسمك الكامل" الزائدة
                 body = f"""
 Dear Recruitment Team,
 
@@ -69,19 +65,18 @@ Best regards,
                 """
                 msg.attach(MIMEText(body, 'plain', 'utf-8'))
 
-                # إرفاق الملف (مع تغيير اسمه ليظهر للمستلم بشكل احترافي)
+                # إرفاق السيفي
                 with open(CV_FILE_PATH, "rb") as attachment:
                     part = MIMEBase("application", "octet-stream")
                     part.set_payload(attachment.read())
                     encoders.encode_base64(part)
-                    # يظهر للمستلم باسم Professional_CV.pdf
                     part.add_header("Content-Disposition", f"attachment; filename=Professional_CV.pdf")
                     msg.attach(part)
 
                 server.send_message(msg)
                 print(f"✅ [{index}/200] تم الإرسال بنجاح إلى: {email}")
                 
-                # انتظار عشوائي بين 25 و 45 ثانية لتجنب السبام
+                # انتظار عشوائي لمنع الحظر
                 time.sleep(random.randint(25, 45))
 
             except Exception as e:
@@ -90,12 +85,12 @@ Best regards,
 
         server.quit()
 
-        # تحديث قائمة الإيميلات (حذف ما تم إرساله)
+        # تحديث القائمة (حذف الإيميلات المرسلة)
         with open(FILE_NAME, 'w', encoding='utf-8') as f:
             for mail in remaining:
                 f.write(mail + '\n')
         
-        print("🏁 اكتملت المهمة وتم تحديث القائمة بنجاح.")
+        print("🏁 اكتملت المهمة بنجاح.")
 
     except Exception as e:
         print(f"❌ فشل في الاتصال بالسيرفر: {e}")
