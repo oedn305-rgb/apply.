@@ -1,0 +1,71 @@
+# شركات صناعية وبتروكيماويات (تطلب فنيين وأمن وثانوي)
+recruitment@sipchem.com
+careers@tasnee.com
+jobs@maaden.com.sa
+hr@marafiq.com.sa
+recruitment@satorp.com
+jobs@yasref.com.sa
+hr@samref.com.sa
+careers@petrorabigh.com
+jobs@farabi.com.sa
+recruitment@chemanol.com
+hr@advancedpetrochem.com
+jobs@nama.com.sa
+
+# شركات تشغيل ومقاولات كبرى
+recruitment@saipem.com
+careers@jacobs.com
+hr@worley.com
+jobs@woodplc.com
+recruitment@kbr.com
+hr@mcdermott.com
+jobs@snamprogetti.com.sa
+recruitment@kentplc.com
+hr@isaco.com.sa
+jobs@alkifah.com
+recruitment@al-ayuni.com
+hr@el-seif.com.sa
+
+# شركات التغذية والتموين
+recruitment@saudicatering.com
+jobs@saudi-air-catering.com
+hr@alfaisaliah.com
+recruitment@sadia.com.sa
+jobs@sunbulahgroup.com
+hr@americana-food.com
+recruitment@pawal.com.sa
+jobs@national-food.com
+hr@alshifa.com.sa
+
+# قطاع السيارات والنقل (استقبال ومبيعات ثانوي)
+recruitment@al-jazirah.com.sa
+jobs@abdulatifjameel.com
+hr@najibautotrading.com
+recruitment@wallan.com.sa
+jobs@alj.com
+hr@universal-motors.com
+recruitment@saudi-hyundai.com
+jobs@petromin.com
+hr@fnc.com.sa
+
+# شركات التقنية والاتصالات (خدمة عملاء)
+hr@stc.com.sa
+recruitment@mobily.com.sa
+jobs@zain.com.sa
+hr@salam.sa
+recruitment@solutions.com.sa
+jobs@etisalat.com.sa
+
+# شركات متنوعة (إدارية وأمنية)
+recruitment@al-fanar.com
+jobs@rezayat.com
+hr@alfalak.com
+recruitment@zamilindustrial.com
+jobs@dar-al-handasah.com
+hr@khatibalamami.com
+recruitment@saudiconsult.com
+jobs@jacobs-zate.com
+hr@dar-security.com
+recruitment@guardforce.com.sa
+jobs@arabian-security.com
+hr@saudi-protection.com
