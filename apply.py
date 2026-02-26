@@ -2,53 +2,59 @@ import time
 import random
 import os
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
-# --- إعداداتك ---
+# --- إعدادات الجدول ---
 FILE_NAME = 'all_emails.txt'
 DAILY_LIMIT = 240 
 
-def start_job():
-    # 1. تشغيل المتصفح (كروم)
-    driver = webdriver.Chrome() 
-    driver.get("https://mail.google.com") # أو رابط قالبك
-    
-    print("⚠️ سجل دخولك يدوياً الآن في المتصفح، ثم اضغط Enter هنا بالكود...")
-    input() 
+def start_bot():
+    # إعدادات المتصفح للعمل في سيرفر (وضع الخفاء)
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
 
-    # 2. قراءة الملف
-    if not os.path.exists(FILE_NAME): return
-    with open(FILE_NAME, 'r') as f:
-        emails = [line.strip() for line in f if line.strip()]
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
-    to_send = emails[:DAILY_LIMIT]
-    remaining = emails[DAILY_LIMIT:]
+    # قراءة الإيميلات
+    if not os.path.exists(FILE_NAME):
+        print("❌ الملف غير موجود!")
+        return
+
+    with open(FILE_NAME, 'r', encoding='utf-8') as f:
+        all_emails = [line.strip() for line in f if line.strip()]
+
+    if not all_emails:
+        print("🎉 القائمة فارغة!")
+        return
+
+    to_send = all_emails[:DAILY_LIMIT]
+    remaining = all_emails[DAILY_LIMIT:]
+
+    print(f"🚀 بدء الإرسال لـ {len(to_send)} إيميل...")
 
     for index, email in enumerate(to_send, 1):
         try:
-            # --- بداية عملية الإرسال الفعلية ---
-            # هنا البوت يضغط على زر "إنشاء رسالة"
-            # ملاحظة: المسميات (ID) تختلف حسب قالبك
-            print(f"[{index}/{DAILY_LIMIT}] إرسال إلى: {email}")
-
-            # مثال: كتابة الإيميل (هنا تضع أوامر القالب حقك)
-            # driver.find_element(By.NAME, "to").send_keys(email)
+            # --- هنا تضع خطوات الإرسال الخاصة بك ---
+            # مثال: driver.get(f"رابط_البحث_أو_الإيميل")
+            print(f"[{index}/{len(to_send)}] جاري المعالجة: {email}")
             
-            # --- انتهى الإرسال ---
-
-            # الانتظار الآمن (عشان ما تطلع الدائرة الصفراء للأبد)
-            wait = random.randint(20, 45)
-            time.sleep(wait)
+            # الانتظار الآمن (المعدل السريع)
+            time.sleep(random.randint(20, 45))
 
         except Exception as e:
-            print(f"خطأ: {e}")
+            print(f"❌ خطأ مع {email}: {e}")
 
-    # 3. تحديث القائمة
-    with open(FILE_NAME, 'w') as f:
-        for m in remaining: f.write(m + '\n')
-    
+    # تحديث الملف (حذف من تم الإرسال لهم)
+    with open(FILE_NAME, 'w', encoding='utf-8') as f:
+        for mail in remaining:
+            f.write(mail + '\n')
+
     driver.quit()
-    print("✅ انتهت المهمة وتحدث الملف.")
+    print("✅ انتهت المهمة بنجاح.")
 
-start_job()
+if __name__ == "__main__":
+    start_bot()
