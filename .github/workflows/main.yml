@@ -1,10 +1,9 @@
-name: Auto Job Bot
+name: Job Search Bot
 
 on:
-  push:
-    branches: [ main ]
   schedule:
-    - cron: '0 8 * * *' # يشتغل تلقائياً كل يوم الساعة 8 صباحاً بتوقيت جرينتش
+    - cron: '0 8 * * *' # يشتغل كل يوم الساعة 8 صباحاً
+  workflow_dispatch: # زر لتشغيله يدوياً للتجربة
 
 jobs:
   build:
@@ -18,17 +17,20 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install Selenium and Driver
-        run: |
-          pip install selenium webdriver-manager
+      - name: Install dependencies
+        run: pip install requests # أضف أي مكتبات تحتاجها
 
-      - name: Run Bot Script
+      - name: Run bot
+        env:
+          # هنا نربط الـ Secrets بالكود
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
         run: python apply.py
 
-      - name: Save Updated List
+      - name: Commit and push changes
         run: |
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'actions@github.com'
+          git config --global user.name "github-actions"
+          git config --global user.email "action@github.com"
           git add all_emails.txt
-          git commit -m "Update emails: Removed sent items" || exit 0
+          git commit -m "Update email list [skip ci]" || exit 0
           git push
