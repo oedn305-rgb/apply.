@@ -1,59 +1,97 @@
-import requests
+import smtplib
+import os
 import time
 import random
-import os
-from concurrent.futures import ThreadPoolExecutor
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase
+from email import encoders
 
-# إعدادات بسيطة
-FILE_NAME = 'all_emails.txt'
-TARGET_COUNT = 4000  # العدد اللي تبي تخلصه اليوم
-THREADS = 10  # عدد الروابط اللي يفتحها بنفس اللحظة (تقدر تزيدها لـ 20)
+# --- الإعدادات الاحترافية ---
+EMAIL_USER = 'your_email@gmail.com'  # بريدك الإلكتروني
+EMAIL_PASS = 'your_app_password'     # كلمة مرور التطبيق
+MY_NAME = "اسمك الكامل"
+CV_FILE_PATH = "my_cv.pdf"           # اسم ملف السيرة الذاتية (يجب أن يكون بنفس المجلد)
 
-def visit_url(item):
-    """وظيفة لزيارة الرابط بسرعة بدون متصفح"""
+def send_professional_email(to_email):
     try:
-        # تحويل النص لرابط بحث إذا لم يكن رابطاً
-        url = item if item.startswith('http') else f"https://www.google.com/search?q={item}"
+        # 1. إنشاء الرسالة
+        msg = MIMEMultipart()
+        msg['From'] = f"{MY_NAME} <{EMAIL_USER}>"
+        msg['To'] = to_email
+        msg['Subject'] = f"Job Application - {MY_NAME} - Seeking New Opportunities"
+
+        # 2. نص الرسالة (جذاب ومختصر)
+        body = f"""
+Dear Recruitment Team,
+
+I hope this email finds you well.
+
+I am writing to express my interest in joining your esteemed organization. With my background and experience, I believe I can be a valuable asset to your team. 
+
+Please find my attached CV for your review. I look forward to the possibility of discussing how my skills can contribute to your company.
+
+Best Regards,
+{MY_NAME}
+        """
+        msg.attach(MIMEText(body, 'plain', 'utf-8'))
+
+        # 3. إرفاق السيرة الذاتية (PDF)
+        if os.path.exists(CV_FILE_PATH):
+            with open(CV_FILE_PATH, "rb") as attachment:
+                part = MIMEBase("application", "octet-stream")
+                part.set_payload(attachment.read())
+                encoders.encode_base64(part)
+                part.add_header("Content-Disposition", f"attachment; filename= {CV_FILE_PATH}")
+                msg.attach(part)
+
+        # 4. الاتصال بالسيرفر والإرسال
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(EMAIL_USER, EMAIL_PASS)
+        server.send_message(msg)
+        server.quit()
         
-        # إرسال طلب سريع للموقع (بدون تحميل صور أو جافا سكريبت)
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        response = requests.get(url, headers=headers, timeout=10)
-        
-        print(f"✅ تم تحديث: {item[:20]}... الحالة: {response.status_code}")
+        print(f"✅ تم الإرسال بنجاح إلى: {to_email}")
         return True
-    except Exception:
-        print(f"❌ فشل الوصول لـ: {item[:20]}")
+    except Exception as e:
+        print(f"❌ خطأ مع {to_email}: {e}")
         return False
 
-def run_fast_bot():
+def run_job_search_bot():
+    FILE_NAME = 'all_emails.txt'
     if not os.path.exists(FILE_NAME):
-        print("❌ ملف all_emails.txt غير موجود!")
+        print("❌ خطأ: ملف الإيميلات غير موجود!")
         return
 
     with open(FILE_NAME, 'r', encoding='utf-8') as f:
-        lines = [line.strip() for line in f if line.strip()]
+        emails = [line.strip() for line in f if line.strip()]
 
-    if not lines:
-        print("🎉 القائمة فارغة!")
+    if not emails:
+        print("🎉 اكتملت جميع القوائم!")
         return
 
-    to_process = lines[:TARGET_COUNT]
-    remaining = lines[TARGET_COUNT:]
+    # معالجة 200 إيميل فقط لليوم لضمان الأمان
+    to_send = emails[:200]
+    remaining = emails[200:]
 
-    print(f"🚀 انطلاق! جاري معالجة {len(to_process)} رابط باستخدام {THREADS} خيوط معالجة (Threads)...")
+    print(f"🚀 انطلاق البوت.. إرسال {len(to_send)} إيميل اليوم.")
 
-    # تشغيل عدة روابط في نفس الوقت لتسريع العملية جداً
-    with ThreadPoolExecutor(max_workers=THREADS) as executor:
-        executor.map(visit_url, to_process)
+    for index, email in enumerate(to_send, 1):
+        success = send_professional_email(email)
+        
+        if success:
+            # انتظار عشوائي بين 20 و 45 ثانية (مهم جداً لتجنب السبام)
+            sleep_time = random.randint(20, 45)
+            print(f"😴 انتظار {sleep_time} ثانية... [{index}/200]")
+            time.sleep(sleep_time)
 
-    # حفظ الروابط المتبقية في الملف
+    # تحديث الملف وحذف من تم الإرسال لهم
     with open(FILE_NAME, 'w', encoding='utf-8') as f:
-        for line in remaining:
-            f.write(line + '\n')
+        for mail in remaining:
+            f.write(mail + '\n')
 
-    print(f"🏁 انتهت المهمة! تم معالجة {len(to_process)} وبقي {len(remaining)} رابط.")
+    print("🏁 انتهت مهمة اليوم بنجاح!")
 
 if __name__ == "__main__":
-    start_time = time.time()
-    run_fast_bot()
-    print(f"⏱️ الوقت المستغرق: {round(time.time() - start_time, 2)} ثانية.")
+    run_job_search_bot()
