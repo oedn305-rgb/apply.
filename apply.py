@@ -1,69 +1,54 @@
 import time
 import random
 import os
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
-# ==========================================
-# إعدادات الجدول (تقدر تعدلها هنا)
-# ==========================================
+# --- إعداداتك ---
 FILE_NAME = 'all_emails.txt'
-DAILY_LIMIT = 240       # عدد الرسايل اليومية
-MIN_WAIT = 20           # أقل وقت انتظار (ثانية)
-MAX_WAIT = 45           # أكثر وقت انتظار (ثانية)
-# ==========================================
+DAILY_LIMIT = 240 
 
-def start_bot():
-    # 1. التأكد من وجود ملف الإيميلات
-    if not os.path.exists(FILE_NAME):
-        print(f"❌ خطأ: ملف {FILE_NAME} غير موجود في نفس المجلد!")
-        return
+def start_job():
+    # 1. تشغيل المتصفح (كروم)
+    driver = webdriver.Chrome() 
+    driver.get("https://mail.google.com") # أو رابط قالبك
+    
+    print("⚠️ سجل دخولك يدوياً الآن في المتصفح، ثم اضغط Enter هنا بالكود...")
+    input() 
 
-    # 2. قراءة الإيميلات من الملف
-    with open(FILE_NAME, 'r', encoding='utf-8') as f:
-        all_emails = [line.strip() for line in f if line.strip()]
+    # 2. قراءة الملف
+    if not os.path.exists(FILE_NAME): return
+    with open(FILE_NAME, 'r') as f:
+        emails = [line.strip() for line in f if line.strip()]
 
-    if not all_emails:
-        print("🎉 مبروك! القائمة خلصت بالكامل، ما فيه إيميلات متبقية.")
-        return
+    to_send = emails[:DAILY_LIMIT]
+    remaining = emails[DAILY_LIMIT:]
 
-    # تحديد العدد المطلوب إرساله اليوم
-    total_to_send = min(len(all_emails), DAILY_LIMIT)
-    emails_for_today = all_emails[:total_to_send]
-    remaining_emails = all_emails[total_to_send:]
-
-    print(f"🚀 تشغيل البوت... المستهدف اليوم: {total_to_send} إيميل")
-    print("-" * 40)
-
-    sent_successfully = 0
-
-    for index, email in enumerate(emails_for_today, 1):
+    for index, email in enumerate(to_send, 1):
         try:
-            # 🛑 [مكان وضع كود الإرسال حقك - Template] 🛑
-            # هنا تحط الأوامر اللي تفتح الإيميل وتضغط إرسال
-            print(f"[{index}/{total_to_send}] جاري الإرسال إلى: {email}")
+            # --- بداية عملية الإرسال الفعلية ---
+            # هنا البوت يضغط على زر "إنشاء رسالة"
+            # ملاحظة: المسميات (ID) تختلف حسب قالبك
+            print(f"[{index}/{DAILY_LIMIT}] إرسال إلى: {email}")
+
+            # مثال: كتابة الإيميل (هنا تضع أوامر القالب حقك)
+            # driver.find_element(By.NAME, "to").send_keys(email)
             
-            # محاكاة لعملية الإرسال
-            # (حط كود الأكشن حقك هنا)
-            
-            sent_successfully += 1
-            
-            # الفاصل الزمني (تم تقليله بناءً على طلبك)
-            if index < total_to_send:
-                wait = random.randint(MIN_WAIT, MAX_WAIT)
-                print(f"⏳ انتظار آمن لمدة {wait} ثانية...")
-                time.sleep(wait)
+            # --- انتهى الإرسال ---
+
+            # الانتظار الآمن (عشان ما تطلع الدائرة الصفراء للأبد)
+            wait = random.randint(20, 45)
+            time.sleep(wait)
 
         except Exception as e:
-            print(f"❌ فشل الإرسال لـ {email}: {e}")
+            print(f"خطأ: {e}")
 
-    # 3. تحديث الملف وحذف الإيميلات اللي أرسلنا لها
-    with open(FILE_NAME, 'w', encoding='utf-8') as f:
-        for mail in remaining_emails:
-            f.write(mail + '\n')
+    # 3. تحديث القائمة
+    with open(FILE_NAME, 'w') as f:
+        for m in remaining: f.write(m + '\n')
+    
+    driver.quit()
+    print("✅ انتهت المهمة وتحدث الملف.")
 
-    print("-" * 40)
-    print(f"🏁 انتهت مهمة اليوم بنجاح!")
-    print(f"✅ تم إرسال: {sent_successfully}")
-    print(f"📝 المتبقي في الملف لبكرة: {len(remaining_emails)} إيميل")
-
-if __name__ == "__main__":
-    start_bot()
+start_job()
