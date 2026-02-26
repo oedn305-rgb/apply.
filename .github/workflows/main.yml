@@ -1,0 +1,23 @@
+name: Jobs Application Bot
+on:
+  schedule:
+    - cron: '0 6 * * 1-5' # يشتغل الساعة 9 صباحاً بتوقيت السعودية، من الأحد للخميس
+  workflow_dispatch: # زر تشغيل يدوي متى ما بغيت
+
+jobs:
+  send-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Send Emails
+        env:
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+        run: python apply.py # تأكد أن اسم ملف البوت هو apply.py
