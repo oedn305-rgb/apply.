@@ -1,59 +1,59 @@
 import os
 import smtplib
 import time
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
+from email.message import EmailMessage
 
 def send_cv_to_jobs(target_email):
     MY_EMAIL = os.getenv("MY_EMAIL")
     EMAIL_PASS = os.getenv("EMAIL_PASS")
     
-    # رسالة احترافية للتقديم على القطاع الخاص والمدني (ثانوي)
-    subject = f"طلب انضمام للعمل - مؤهل ثانوية عامة"
-    body = """
-    السادة إدارة الموارد البشرية المحترمين،
-    
-    السلام عليكم ورحمة الله وبركاته،
-    
-    أتقدم إليكم بطلب وظيفة تناسب مؤهل الثانوية العامة في شركتكم الموقرة. 
-    لدي الرغبة الكاملة في العمل بجدية والتزام، والمساهمة في نجاحاتكم وتطوير مهاراتي المهنية.
-    
-    مرفق لكم السيرة الذاتية (CV) متضمنة كافة البيانات الشخصية ووسائل التواصل.
-    
-    شاكر لكم وقتكم، وفي انتظار ردكم الكريم.
-    
-    وتفضلوا بقبول فائق الاحترام والتقدير.
-    """
-
-    msg = MIMEMultipart()
+    # إعداد الرسالة بنظام حديث يمنع أخطاء الـ bytes
+    msg = EmailMessage()
+    msg['Subject'] = "طلب انضمام للعمل - مؤهل ثانوية عامة"
     msg['From'] = MY_EMAIL
     msg['To'] = target_email
-    msg['Subject'] = subject
-    msg.attach(MIMEText(body, 'plain', 'utf-8'))
+    msg.set_content("""
+السلام عليكم ورحمة الله وبركاته،
 
-    # تحديد اسم ملف السيفي (تأكد أن الملف المرفوع اسمه cv.pdf أو cv.pdf.pdf)
-    filename = "cv.pdf"
-    if not os.path.exists(filename):
-        filename = "cv.pdf.pdf" # محاولة ثانية في حال وجود الاسم المكرر
+أتقدم إليكم بطلب وظيفة تناسب مؤهل الثانوية العامة في شركتكم الموقرة.
+مرفق لكم السيرة الذاتية (CV).
+
+شاكر لكم وقتكم، وفي انتظار ردكم الكريم.
+    """)
+
+    # --- الجزء الذكي للتعامل مع اسم الملف ---
+    # البوت سيجرب البحث عن الملف بالاسم المكرر أولاً ثم الاسم العادي
+    possible_filenames = ["cv.pdf.pdf", "cv.pdf"]
+    filename = None
+
+    for name in possible_filenames:
+        if os.path.exists(name):
+            filename = name
+            break
+    # ---------------------------------------
 
     try:
-        with open(filename, "rb") as attachment:
-            part = MIMEBase("application", "octet-stream")
-            part.set_payload(attachment.read())
-            encoders.encode_base64(part)
-            part.add_header("Content-Disposition", f"attachment; filename= {filename}")
-            msg.attach(part)
+        if filename:
+            with open(filename, 'rb') as f:
+                file_data = f.read()
+                msg.add_attachment(
+                    file_data,
+                    maintype='application',
+                    subtype='pdf',
+                    filename=filename
+                )
             
-        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
-            server.login(MY_EMAIL, EMAIL_PASS)
-            server.send_message(msg)
-        print(f"✅ تم الإرسال بنجاح إلى: {target_email}")
+            with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+                server.login(MY_EMAIL, EMAIL_PASS)
+                server.send_message(msg)
+            print(f"✅ تم الإرسال بنجاح إلى: {target_email}")
+        else:
+            print(f"❌ خطأ: لم أجد ملف cv.pdf أو cv.pdf.pdf في المستودع")
+            
     except Exception as e:
-        print(f"❌ فشل الإرسال لـ {target_email}: {e}")
+        print(f"❌ فشل الإرسال لـ {target_email}: {str(e)}")
 
-# قائمة إيميلات التوظيف (أضف هنا أي إيميل جديد تجده)
+# قائمة الإيميلات (تأكد من وضع إيميلات حقيقية هنا)
 job_list = [
     "recruitment@company.com.sa",
     "hr.jobs@civil-sector.com",
@@ -61,9 +61,6 @@ job_list = [
 ]
 
 if __name__ == "__main__":
-    if not job_list:
-        print("القائمة فارغة، يرجى إضافة إيميلات!")
-    else:
-        for job_email in job_list:
-            send_cv_to_jobs(job_email)
-            time.sleep(5) # انتظار بسيط لتجنب الحظر
+    for job_email in job_list:
+        send_cv_to_jobs(job_email)
+        time.sleep(5)
