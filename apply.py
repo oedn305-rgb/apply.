@@ -8,25 +8,23 @@ from email import encoders
 
 def send_cv_to_jobs(target_email):
     MY_EMAIL = os.getenv("MY_EMAIL")
-    EMAIL_PASS = os.getenv("EMAIL_PASS") # كلمة سر التطبيقات من جوجل
+    EMAIL_PASS = os.getenv("EMAIL_PASS")
     
-    # رسالة احترافية للقطاعين الخاص والمدني
-    subject = f"طلب انضمام - شهادة ثانوية - {target_email.split('@')[0]}"
+    # رسالة احترافية للتقديم على القطاع الخاص والمدني (ثانوي)
+    subject = f"طلب انضمام للعمل - مؤهل ثانوية عامة"
     body = """
     السادة إدارة الموارد البشرية المحترمين،
     
     السلام عليكم ورحمة الله وبركاته،
     
-    أتقدم إليكم بطلب وظيفة (تناسب مؤهل الثانوية العامة) في منظومتكم الموقرة. 
-    لدي رغبة كبيرة في العمل بجد واجتهاد، والمساهمة في تحقيق أهداف الشركة/المؤسسة، 
-    مع الالتزام التام بالأنظمة واللوائح المهنية.
+    أتقدم إليكم بطلب وظيفة تناسب مؤهل الثانوية العامة في شركتكم الموقرة. 
+    لدي الرغبة الكاملة في العمل بجدية والتزام، والمساهمة في نجاحاتكم وتطوير مهاراتي المهنية.
     
     مرفق لكم السيرة الذاتية (CV) متضمنة كافة البيانات الشخصية ووسائل التواصل.
     
-    في انتظار ردكم الكريم، وتفضلوا بقبول فائق الاحترام والتقدير.
+    شاكر لكم وقتكم، وفي انتظار ردكم الكريم.
     
-    الاسم: [اكتب اسمك هنا]
-    رقم التواصل: [اكتب رقمك هنا]
+    وتفضلوا بقبول فائق الاحترام والتقدير.
     """
 
     msg = MIMEMultipart()
@@ -35,8 +33,11 @@ def send_cv_to_jobs(target_email):
     msg['Subject'] = subject
     msg.attach(MIMEText(body, 'plain', 'utf-8'))
 
-    # إرفاق ملف الـ CV
+    # تحديد اسم ملف السيفي (تأكد أن الملف المرفوع اسمه cv.pdf أو cv.pdf.pdf)
     filename = "cv.pdf"
+    if not os.path.exists(filename):
+        filename = "cv.pdf.pdf" # محاولة ثانية في حال وجود الاسم المكرر
+
     try:
         with open(filename, "rb") as attachment:
             part = MIMEBase("application", "octet-stream")
@@ -48,11 +49,11 @@ def send_cv_to_jobs(target_email):
         with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
             server.login(MY_EMAIL, EMAIL_PASS)
             server.send_message(msg)
-        print(f"✅ تم التقديم بنجاح على: {target_email}")
+        print(f"✅ تم الإرسال بنجاح إلى: {target_email}")
     except Exception as e:
-        print(f"❌ خطأ في الإرسال لـ {target_email}: {e}")
+        print(f"❌ فشل الإرسال لـ {target_email}: {e}")
 
-# ضع هنا كل الإيميلات التي تجدها في إعلانات الوظائف (ثانوي)
+# قائمة إيميلات التوظيف (أضف هنا أي إيميل جديد تجده)
 job_list = [
     "recruitment@company.com.sa",
     "hr.jobs@civil-sector.com",
@@ -60,6 +61,9 @@ job_list = [
 ]
 
 if __name__ == "__main__":
-    for job_email in job_list:
-        send_cv_to_jobs(job_email)
-        time.sleep(5) # انتظار 5 ثوانٍ بين كل إرسال لتجنب السبام
+    if not job_list:
+        print("القائمة فارغة، يرجى إضافة إيميلات!")
+    else:
+        for job_email in job_list:
+            send_cv_to_jobs(job_email)
+            time.sleep(5) # انتظار بسيط لتجنب الحظر
