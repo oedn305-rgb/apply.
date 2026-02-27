@@ -10,12 +10,21 @@ from email import encoders
 # --- جلب الإعدادات من Secrets ---
 EMAIL_USER = os.getenv('MY_EMAIL')
 EMAIL_PASS = os.getenv('EMAIL_PASS')
-# هنا اكتب اسمك الحقيقي ليظهر في نهاية الرسالة
 MY_NAME = "اكتب اسمك هنا" 
 
 # إعدادات الملفات
 CV_FILE_PATH = "cv.pdf.pdf" 
 FILE_NAME = 'all_emails.txt'
+
+def get_mail_server():
+    """دالة لإنشاء اتصال جديد بالسيرفر"""
+    try:
+        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+        server.login(EMAIL_USER, EMAIL_PASS)
+        return server
+    except Exception as e:
+        print(f"❌ فشل في إنشاء اتصال جديد: {e}")
+        return None
 
 def run_job_search_bot():
     if not EMAIL_USER or not EMAIL_PASS:
@@ -36,64 +45,65 @@ def run_job_search_bot():
     to_send = emails[:200]
     remaining = emails[200:]
 
-    print(f"🚀 انطلاق.. محاولة إرسال {len(to_send)} إيميل بمقدمة احترافية...")
+    print(f"🚀 انطلاق.. محاولة إرسال {len(to_send)} إيميل...")
 
+    # فتح أول اتصال
+    server = get_mail_server()
+    if not server: return
+
+    sent_count = 0
     try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(EMAIL_USER, EMAIL_PASS)
-        
         for index, email in enumerate(to_send, 1):
-            try:
-                msg = MIMEMultipart()
-                msg['From'] = f"{MY_NAME} <{EMAIL_USER}>"
-                msg['To'] = email
-                msg['Subject'] = f"Job Application - {MY_NAME}"
+            # محاولة الإرسال مع نظام إعادة الاتصال التلقائي
+            retry_limit = 2
+            while retry_limit > 0:
+                try:
+                    msg = MIMEMultipart()
+                    msg['From'] = f"{MY_NAME} <{EMAIL_USER}>"
+                    msg['To'] = email
+                    msg['Subject'] = f"Job Application - {MY_NAME}"
 
-                # المقدمة الاحترافية بدون عبارة "اسمك الكامل" الزائدة
-                body = f"""
-Dear Recruitment Team,
+                    body = f"""Dear Recruitment Team,\n\nI am writing to express my strong interest in joining your esteemed organization.\n\nBest regards,\n{MY_NAME}"""
+                    msg.attach(MIMEText(body, 'plain', 'utf-8'))
 
-I am writing to express my strong interest in joining your esteemed organization. 
+                    with open(CV_FILE_PATH, "rb") as attachment:
+                        part = MIMEBase("application", "octet-stream")
+                        part.set_payload(attachment.read())
+                        encoders.encode_base64(part)
+                        part.add_header("Content-Disposition", f"attachment; filename=Professional_CV.pdf")
+                        msg.attach(part)
 
-With a solid commitment to professional excellence and a proactive approach to problem-solving, I am confident that my skills and dedication will be a valuable asset to your team. I have long admired your company's reputation for innovation, and I am eager to contribute to your ongoing success.
-
-Please find my attached CV for more details about my experience and qualifications. I look forward to the opportunity of a personal interview to discuss how I can add value to your company.
-
-Best regards,
-{MY_NAME}
-                """
-                msg.attach(MIMEText(body, 'plain', 'utf-8'))
-
-                # إرفاق السيفي
-                with open(CV_FILE_PATH, "rb") as attachment:
-                    part = MIMEBase("application", "octet-stream")
-                    part.set_payload(attachment.read())
-                    encoders.encode_base64(part)
-                    part.add_header("Content-Disposition", f"attachment; filename=Professional_CV.pdf")
-                    msg.attach(part)
-
-                server.send_message(msg)
-                print(f"✅ [{index}/200] تم الإرسال بنجاح إلى: {email}")
+                    server.send_message(msg)
+                    print(f"✅ [{index}/200] تم الإرسال بنجاح إلى: {email}")
+                    sent_count += 1
+                    break # اخرج من حلقة الـ retry لو نجح الإرسال
                 
-                # انتظار عشوائي لمنع الحظر
-                time.sleep(random.randint(25, 45))
+                except (smtplib.SMTPServerDisconnected, smtplib.SMTPException):
+                    print("🔄 انقطع الاتصال.. جاري إعادة الاتصال بالسيرفر...")
+                    server = get_mail_server()
+                    retry_limit -= 1
+                    time.sleep(5)
+                except Exception as e:
+                    print(f"⚠️ فشل مع {email}: {e}")
+                    break
 
-            except Exception as e:
-                print(f"⚠️ فشل مع {email}: {e}")
-                continue
+            # انتظار عشوائي لمنع الحظر (بين 25 و 45 ثانية كما طلبت)
+            time.sleep(random.randint(25, 45))
 
-        server.quit()
+    finally:
+        if server:
+            try: server.quit()
+            except: pass
 
-        # تحديث القائمة (حذف الإيميلات المرسلة)
+        # تحديث القائمة (حذف الإيميلات التي تمت محاولة إرسالها فقط)
+        # لضمان عدم ضياع الإيميلات لو توقف البوت فجأة
         with open(FILE_NAME, 'w', encoding='utf-8') as f:
-            for mail in remaining:
+            # نحذف فقط اللي مروا في الحلقة
+            actually_processed = emails[index:] 
+            for mail in actually_processed:
                 f.write(mail + '\n')
         
-        print("🏁 اكتملت المهمة بنجاح.")
-
-    except Exception as e:
-        print(f"❌ فشل في الاتصال بالسيرفر: {e}")
+        print(f"🏁 اكتملت المهمة. تم معالجة {index} إيميل.")
 
 if __name__ == "__main__":
     run_job_search_bot()
