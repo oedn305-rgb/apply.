@@ -1,227 +1,5 @@
-# شركات صناعية وبتروكيماويات (تطلب فنيين وأمن وثانوي)
-recruitment@sipchem.com
-careers@tasnee.com
-jobs@maaden.com.sa
-hr@marafiq.com.sa
-recruitment@satorp.com
-jobs@yasref.com.sa
-hr@samref.com.sa
-careers@petrorabigh.com
-jobs@farabi.com.sa
-recruitment@chemanol.com
-hr@advancedpetrochem.com
-jobs@nama.com.sa
-
-# شركات تشغيل ومقاولات كبرى
-recruitment@saipem.com
-careers@jacobs.com
-hr@worley.com
-jobs@woodplc.com
-recruitment@kbr.com
-hr@mcdermott.com
-jobs@snamprogetti.com.sa
-recruitment@kentplc.com
-hr@isaco.com.sa
-jobs@alkifah.com
-recruitment@al-ayuni.com
-hr@el-seif.com.sa
-
-# شركات التغذية والتموين
-recruitment@saudicatering.com
-jobs@saudi-air-catering.com
-hr@alfaisaliah.com
-recruitment@sadia.com.sa
-jobs@sunbulahgroup.com
-hr@americana-food.com
-recruitment@pawal.com.sa
-jobs@national-food.com
-hr@alshifa.com.sa
-
-# قطاع السيارات والنقل (استقبال ومبيعات ثانوي)
-recruitment@al-jazirah.com.sa
-jobs@abdulatifjameel.com
-hr@najibautotrading.com
-recruitment@wallan.com.sa
-jobs@alj.com
-hr@universal-motors.com
-recruitment@saudi-hyundai.com
-jobs@petromin.com
-hr@fnc.com.sa
-
-# شركات التقنية والاتصالات (خدمة عملاء)
-hr@stc.com.sa
-recruitment@mobily.com.sa
-jobs@zain.com.sa
-hr@salam.sa
-recruitment@solutions.com.sa
-jobs@etisalat.com.sa
-
-# شركات متنوعة (إدارية وأمنية)
-recruitment@al-fanar.com
-jobs@rezayat.com
-hr@alfalak.com
-recruitment@zamilindustrial.com
-jobs@dar-al-handasah.com
-hr@khatibalamami.com
-recruitment@saudiconsult.com
-jobs@jacobs-zate.com
-hr@dar-security.com
-recruitment@guardforce.com.sa
-jobs@arabian-security.com
-hr@saudi-protection.com
-# شركات الجبيل الصناعية (صيانة وتشغيل - ثانوي)
-careers@s-chem.com
-hr@tasnee.com
-jobs@saudichevron.com
-recruitment@sharq.com.sa
-hr@arazi.com.sa
-jobs@sasref.com.sa
-recruitment@samref.com.sa
-hr.job@jhgp.com.sa
-careers@isacc.com.sa
-jobs@gas.com.sa
-
-# شركات الدمام والخبر (خدمات لوجستية ومقاولات)
-hr@zamilpaints.com
-recruitment@zamilair.com
-jobs@zamilsteel.com
-hr@alkifah.com
-recruitment@haka.com.sa
-jobs@al-tamimi.com
-hr.jobs@rezayat.com
-recruitment@al-suwaidi.com
-jobs@dar-al-riyadh.com
-hr@shoaibi.com
-recruitment@rawabiholding.com
-
-# قطاع الموانئ والنقل (الشرقية)
-hr@ports.gov.sa
-jobs@saudi-global.com
-recruitment@globemarine.com.sa
-hr@basamh.com
-jobs@namma.com.sa
-recruitment@almajdouie.com
-hr@hala.com.sa
-
-# صيدليات ومستشفيات الشرقية (وظائف استقبال وأمن)
-hr@الدواء.com.sa
-jobs@mouwasat.com
-recruitment@mana.org.sa
-hr@procare.com.sa
-jobs@غمام.com.sa
-recruitment@as-salama.com.sa
-
-# شركات الأغذية والمطاعم (فروع الشرقية)
-hr@al-munajem.com
-jobs@al-karam.com
-recruitment@nadec.com.sa
-hr@halwani.com.sa
-jobs@food-choice.com.sa
-recruitment@taza.com.sa
-hr@kudu.com.sa
-
-# شركات أمنية نشطة في الشرقية
-jobs@al-majal.com
-hr@g4s.com.sa
-recruitment@abana.com.sa
-hr@icss.com.sa
-jobs@security-solutions.com.sa
-
-# شركات بالصناعية الثانية والثالثة بالدمام
-hr@spc.com.sa
-jobs@napco-group.com
-recruitment@mepco.biz
-hr@saudipaper.com
-jobs@sadafco.com
-recruitment@indevco.com
-
-# شركات الخدمات البترولية والمساندة (الشرقية)
-recruitment@arabian-drilling.com
-hr@saudi-kayan.com.sa
-jobs@adams-sa.com
-recruitment@nesma-tatweer.com
-hr@rawabi-united.com
-jobs@shoaibi-group.com
-recruitment@sahara-petrochemical.com
-hr@pms-saudi.com
-jobs@oilfield-services.sa
-
-# شركات التموين والإعاشة (تطلب موظفي خطوط إنتاج وتعبئة)
-hr@saudicatering.com
-jobs@gulf-catering.com
-recruitment@taza-catering.com
-hr@alkifah-catering.com
-jobs@food-services.sa
-recruitment@almunajem-cold.com
-
-# شركات المقاولات والإنشاءات بالشرقية (وظائف إدارية ميدانية ثانوي)
-hr@al-khodari.com
-jobs@fawaz-alhokair.com
-recruitment@saudi-lebanese.com
-hr@al-rasheed.com
-jobs@al-yamama.com.sa
-recruitment@nass-corporation.com
-hr@haji-abdullah.com
-
-# وكالات السيارات والمعارض (استقبال ومبيعات بالشرقية)
-jobs@al-jazirah.com.sa
-hr@almajdouie-hyundai.com
-recruitment@naghi-bmw.com
-jobs@wallan-cars.com
-hr@al-ghassan.com
-recruitment@samaco.com.sa
-
-# شركات النقل المبرد والخدمات اللوجستية
-hr@sj-logistics.com
-jobs@naqel-express.com
-recruitment@aramex-sa.com
-hr@smsa-logistics.com
-jobs@aymkan-sa.com
-recruitment@lsc-sa.com
-
-# مكاتب وشركات استقدام وتشغيل (سعودة حقيقية)
-hr@smasco.com.sa
-jobs@maharah-hr.com
-recruitment@mueen-hr.com
-hr@arc-hr.com
-jobs@taqat-eastern.sa
-recruitment@fursan-hr.com
-
-# شركات الحراسات الأمنية والخدمات المساندة (الشرقية)
-hr@sraco.com.sa
-jobs@alkifah.com
-recruitment@f-security.sa
-hr@guardforce.com.sa
-jobs@saudi-protection.com
-recruitment@amsecurity.com.sa
-hr@almajalsecurity.com
-jobs@shurasecurity.com
-
-# شركات مواد البناء والسيراميك والدهانات
-recruitment@saudiceramics.com
-hr@paints.com.sa
-jobs@hempel.com.sa
-recruitment@jotun.com.sa
-hr@sigmapaints.com.sa
-jobs@bergerpaints.com.sa
-
-# شركات الصيانة والتشغيل (الدمام والخبر)
-hr@stsc.com.sa
-jobs@aytb.com
-recruitment@sendan.com.sa
-hr@expertisellc.com
-jobs@ansab.com.sa
-recruitment@mepco.com.sa
-hr@isaco.com.sa
-
-# شركات النقل والشحن والخدمات البحرية (الدمام)
-recruitment@bahri.sa
-hr@sal.sa
-jobs@saudi-global.com
-recruitment@vanship.com
 hr@zamiloffshore.com
 jobs@milaha.com
-
 # شركات الأغذية والتوزيع الإضافية (تطلب مناديب ومراقبين)
 recruitment@almarai.com
 hr@nadec.com.sa
@@ -230,7 +8,6 @@ recruitment@al-munajem.com
 hr@alsafi.com.sa
 jobs@unilever-arabia.com
 recruitment@pepsico.com
-
 # شركات المقاولات بالمنطقة الشرقية
 hr@al-ayuni.com
 jobs@al-tamimi.com
@@ -238,7 +15,6 @@ recruitment@el-seif.com.sa
 hr@alkifah-contracting.com
 jobs@fawaz-alhokair.com
 recruitment@saudi-lebanese.com
-
 # شركات التمويل والتقسيط (وظائف مبيعات واستقبال ثانوي)
 recruitment@aljfinance.com.sa
 hr@nayifat.com
@@ -247,7 +23,6 @@ recruitment@quarafinance.com
 hr@flexfinance.sa
 jobs@tamam.life
 recruitment@mrsool.co
-
 # شركات التغليف والكرتون والبلاستيك (الدمام والجبيل)
 hr@napcogroup.com
 jobs@indevco-gp.com
@@ -256,7 +31,6 @@ hr@mepco.biz
 jobs@takween.com.sa
 recruitment@rowad.com.sa
 hr@plasco.com.sa
-
 # شركات الاستشارات والمقاولات الفنية (الخبر والظهران)
 hr@worleyparsons.com
 recruitment@jacobs.com
@@ -265,7 +39,6 @@ hr@woodplc.com
 recruitment@snclavalin.com
 jobs@khatibalamami.com
 hr@dar.com
-
 # شركات الخدمات اللوجستية الإضافية (الشرقية)
 recruitment@hal-saudi.com
 hr@bafarat.com.sa
@@ -273,7 +46,6 @@ jobs@almajdouie-logistics.com
 recruitment@naqel.com.sa
 hr@smsaexpress.com
 jobs@aymkan.com.sa
-
 # شركات النظافة والتشغيل (عقود حكومية - تطلب ثانوي بكثرة)
 hr@almajalg4s.com
 jobs@seder.com.sa
@@ -281,7 +53,6 @@ recruitment@fms.com.sa
 hr@samnan.com
 jobs@dar-al-riyadh.com
 recruitment@mosh.gov.sa
-
 # شركات إضافية بالمنطقة الشرقية
 hr@alkhorayef.com
 jobs@alsuhaimi.net
@@ -289,38 +60,32 @@ recruitment@zamilindustrial.com
 hr@alkifah.com.sa
 jobs@binzafrah.com
 recruitment@saudisteel.com.sa
-
 # مجموعة الزامل (فروع وشركات مختلفة)
 careers@zamilindustrial.com
 hr@zamilpaints.com
 jobs@zamilsteel.com
 recruitment@zamilair.com
 hr.zamil@zamil.com
-
 # مجموعة التميمي (الشرقية)
 hr@al-tamimi.com
 jobs@tamimimarkets.com
 recruitment@tamimicatering.com
 hr.jobs@tamimi-group.com
-
 # مجموعة المجدوعي (الدمام والخبر)
 recruitment@almajdouie.com
 hr@almajdouie-motors.com
 jobs@almajdouie-logistics.com
 careers@almajdouie-deere.com
-
 # مجموعة الراشد (الخبر)
 hr@al-rashid.com
 jobs@alrashid-trading.com
 recruitment@alrashid-cement.com
 hr.jobs@alrashid-group.com
-
 # مجموعة الكفاح (الأحساء والدمام)
 jobs@alkifah.com
 hr@alkifah-contracting.com
 recruitment@alkifah-paper.com
 careers@alkifah-holding.com
-
 # شركات الألبان والمواد الغذائية (فروع الشرقية)
 hr@nadec.com.sa
 jobs@almarai.com
@@ -328,14 +93,12 @@ recruitment@alsafi.com.sa
 hr@nada.com.sa
 jobs@aralanco.com.sa
 recruitment@balsharaf.com
-
 # شركات العقار والتشغيل (الدمام والخبر)
 hr@alyousuf.com.sa
 jobs@alghanim.com.sa
 recruitment@al-othman.com
 hr@retal.com.sa
 jobs@adeer.com.sa
-
 # شركات إضافية متنوعة في الشرقية
 hr@shoaibi.com
 jobs@dar-al-riyadh.com
@@ -343,7 +106,6 @@ recruitment@alfalak.com
 hr@saudiconsult.com
 jobs@jacobs-zate.com
 recruitment@nass-corporation.com
-
 # قطاع العطور والتجميل (مبيعات واستقبال ثانوي)
 recruitment@arabianoud.com
 hr@asqgrp.com
@@ -353,14 +115,12 @@ hr@nahdi.sa
 jobs@orange.sa
 recruitment@niceonesa.com
 hr@boutiqaat.com
-
 # شركات النظارات والبصريات (الشرقية)
 hr@magrabi.com
 jobs@barakatoptical.com
 recruitment@al-amin.com.sa
 hr@eyewa.com
 jobs@vision.sa
-
 # شركات الصيانة والتشغيل الإضافية (الدمام والجبيل)
 hr@isacc.com.sa
 jobs@aymkan.com.sa
@@ -369,7 +129,6 @@ hr@samnan.com
 jobs@al-ayuni.com.sa
 recruitment@alkhorayef.com.sa
 hr@rezayat.com.sa
-
 # شركات النقل والمعدات الثقيلة (الشرقية)
 hr@zahid.com
 jobs@ebrahim-juffali.com
@@ -377,34 +136,29 @@ recruitment@al-ghassan.com
 hr@vanship.com
 jobs@saudi-diesel.com
 recruitment@medco.sa
-
 # شركات المقاولات والدهانات (المنطقة الصناعية بالدمام)
 hr@sigmapaints.com.sa
 jobs@hempel.com.sa
 recruitment@jotun.com.sa
 hr@saudipaints.sa
 jobs@paints.com.sa
-
 # قطاع المجمعات التجارية (إداري وأمن)
 hr@cenomi.com
 jobs@rashidmall.com
 recruitment@mallofdhahran.com
 hr@redsea-mall.com
 jobs@arabiancentres.com
-
 # شركات تأمين إضافية (الشرقية)
 recruitment@walaa.sa
 hr@saudienaya.com
 jobs@tihama.com.sa
 recruitment@arabianshield.com
-
 # شركات المطاحن وصوامع الغلال (وظائف تشغيل وأمن)
 recruitment@mc2.com.sa
 hr@firstmills.com
 jobs@mc3.com.sa
 recruitment@mc4.com.sa
 hr@mho.gov.sa
-
 # شركات المشروبات والمياه (الشرقية)
 hr@hana-water.com
 jobs@nova.com.sa
@@ -413,7 +167,6 @@ hr@arwa.com.sa
 jobs@tania.com.sa
 recruitment@pepsico.com.sa
 hr@coca-cola.com.sa
-
 # مصانع الحديد والصلب بالدمام والجبيل
 recruitment@aladeed.com.sa
 hr@saudisteel.com
@@ -421,7 +174,6 @@ jobs@jssc.com.sa
 recruitment@watani-steel.com
 hr@ansalsteel.com.sa
 jobs@alkifahsteel.com
-
 # شركات تأجير السيارات (مبيعات واستقبال ثانوي)
 hr@budgetsaudi.com
 jobs@hertz.com.sa
@@ -429,7 +181,6 @@ recruitment@yelo.sa
 hr@key.sa
 jobs@thebest.sa
 recruitment@shift-inc.com
-
 # شركات الشحن البحري والجوي (الخبر والدمام)
 hr@bahri.sa
 jobs@vanship.com
@@ -437,21 +188,18 @@ recruitment@fourwinds.sa
 hr@globemarine.com.sa
 jobs@saudi-global.com
 recruitment@namma.com.sa
-
 # شركات النظافة والخدمات البيئية (عقود أمانة الشرقية)
 hr@almajalg4s.com
 jobs@seder.com.sa
 recruitment@beeah.sa
 hr@averda.com
 jobs@saudienv.com
-
 # شركات الاستثمار والعقار بالشرقية
 hr@al-othman.com
 jobs@retal.com.sa
 recruitment@ashmore.sa
 hr@adeer.sa
 jobs@al-rashid-trading.com
-
 # شركات التقنية والاتصالات والبرمجة (خدمة عملاء ودعم فني ثانوي)
 careers@solutions.com.sa
 hr@al-moammar.com
@@ -461,7 +209,6 @@ hr@sbm.com.sa
 jobs@detasad.com.sa
 recruitment@nournet.com.sa
 hr@ict.com.sa
-
 # شركات الصيانة الطبية وتوريد الأجهزة (الخبر والدمام)
 hr@tamergroup.com
 jobs@al-faisaliah.com
@@ -469,7 +216,6 @@ recruitment@salehiya.com
 hr@mediserv.com.sa
 jobs@arabian-medical.com
 recruitment@amco.com.sa
-
 # مصانع الأثاث والمطابخ والنجارة (الشرقية)
 hr@al-mutlaq.com
 jobs@al-amer.com.sa
@@ -477,21 +223,18 @@ recruitment@kitcherama.com
 hr@al-ayuni.com.sa
 jobs@saudi-furniture.com
 recruitment@al-rashid-furniture.com
-
 # شركات الدعاية والإعلان والطباعة
 hr@al-khaleejiah.com
 jobs@arabia-ads.com
 recruitment@tihama.com.sa
 hr@print-house.com.sa
 jobs@saudi-printing.com
-
 # شركات المصاعد والسلالم المتحركة (فنيين ومبيعات ثانوي)
 hr@schindler.com
 jobs@otis.com
 recruitment@thyssenkrupp.com
 hr@kone.com
 jobs@mitsubishi-elevator.com.sa
-
 # شركات الخدمات اللوجستية والبريد السريع (إضافية)
 recruitment@aymkan.com
 hr@jtexpress.com.sa
@@ -499,7 +242,6 @@ jobs@careem.com
 recruitment@hungerstation.com
 hr@mrsool.co
 jobs@thechefz.co
-
 # شركات الزجاج والألمنيوم (الدمام والجبيل)
 recruitment@saudiglass.com
 hr@zoujaj.com.sa
@@ -508,7 +250,6 @@ recruitment@alu-k.com.sa
 hr@taiseer-glass.com
 jobs@nsh-group.com
 recruitment@al-ayuni.com.sa
-
 # شركات صناعة الكابلات والكهرباء (تطلب ثانوي بكثرة)
 hr@saudicable.com
 jobs@riyadh-cables.com
@@ -516,7 +257,6 @@ recruitment@alfanar.com
 hr@bahra-cables.com
 jobs@jeddah-cables.com
 recruitment@mepco-sa.com
-
 # شركات التموين الغذائي والمطابخ المركزية (الشرقية)
 hr@khalijia-catering.com
 jobs@food-services.com.sa
@@ -524,7 +264,6 @@ recruitment@gulf-catering.sa
 hr@alkifah-catering.com
 jobs@almunajem-cold.com
 recruitment@saudicatering.com.sa
-
 # شركات النقل البري وسلاسل الإمداد (الشرقية)
 hr@hala-logistics.com
 jobs@naqel.com.sa
@@ -532,7 +271,6 @@ recruitment@mgl.sa
 hr@sj-logistics.sa
 jobs@almajdouie-logistics.com
 recruitment@sh-logistics.com.sa
-
 # مكاتب وشركات إدارة المرافق (فنيين ومشرفين ثانوي)
 hr@sraco.com.sa
 jobs@fms.sa
@@ -540,7 +278,6 @@ recruitment@almajalg4s.com
 hr@seder.com.sa
 jobs@init.sa
 recruitment@mosh.gov.sa
-
 # شركات إضافية بالصناعية الثانية بالدمام
 hr@takween.com
 jobs@napco-group.com
@@ -548,7 +285,6 @@ recruitment@amiyantit.com.sa
 hr@zamilindustrial.com
 jobs@rowad.sa
 recruitment@saudipaper.com.sa
-
 # شركات الخرسانة والمنتجات الإسمنتية (الشرقية)
 recruitment@qcc.com.sa
 hr@readymix.com.sa
@@ -557,7 +293,6 @@ recruitment@altamimi-concrete.com
 hr@alkifah-readymix.com.sa
 jobs@al-falah.com.sa
 recruitment@binsamar.com
-
 # شركات صناعة الأنابيب والصلب (الجبيل والدمام)
 hr@sspipe.com
 jobs@arabiapipe.com
@@ -565,7 +300,6 @@ recruitment@globalpipe.com.sa
 hr@tenaris.com
 jobs@zamilsteel.com.sa
 recruitment@al-reziza.com.sa
-
 # وكلاء الأجهزة المنزلية والإلكترونيات (مبيعات وصيانة ثانوي)
 hr@zagzoog.com
 jobs@alessa.com.sa
@@ -573,28 +307,24 @@ recruitment@shaker.com.sa
 hr@al-babtain.com.sa
 jobs@ibrahim-shaker.com
 recruitment@awad-badi.com.sa
-
 # شركات التخلص من النفايات والخدمات البيئية (الجبيل والدمام)
 hr@sepco-env.com
 jobs@beeah.sa
 recruitment@saudienv.com
 hr@al-kifah-env.com
 jobs@edco.com.sa
-
 # شركات تشغيل الموانئ والخدمات البحرية (الدمام)
 hr@saudiglobal.com.sa
 jobs@vanship.com.sa
 recruitment@zamiloffshore.com
 hr@milaha.com.sa
 jobs@globemarine.com
-
 # شركات مواد التنظيف والمستهلكات الورقية
 hr@saudipaper.com
 jobs@finehh.com
 recruitment@kleenex-sa.com
 hr@indevco-group.com
 jobs@napco-products.com
-
 # شركات الغاز والوقود والخدمات المساندة (الشرقية)
 recruitment@gasco.com.sa
 hr@aldrees.com
@@ -603,7 +333,6 @@ recruitment@naft.com.sa
 hr@petromin.com
 jobs@orange-fuel.com
 recruitment@sasco.com.sa
-
 # شركات المياه وتحلية المياه (الجبيل والخبر)
 hr@swcc.gov.sa
 jobs@marafiq.com.sa
@@ -611,7 +340,6 @@ recruitment@nwc.com.sa
 hr@saudiwater.com.sa
 jobs@watani-water.com
 recruitment@hawa.sa
-
 # شركات الدعم اللوجستي للمطارات (مطار الملك فهد بالدمام)
 hr@sgs.org.sa
 jobs@saudiacatering.com
@@ -619,14 +347,12 @@ recruitment@nas.sa
 hr@flyadeal.com
 jobs@saudia.com
 recruitment@skyprimeav.com
-
 # شركات السيراميك والمواد الصحية (الدمام)
 hr@saudiceramics.com.sa
 jobs@arabianceramics.com
 recruitment@tiles-sa.com
 hr@alfanar.com.sa
 jobs@rak-ceramics.sa
-
 # شركات النقل البري والمبرد (الدمام والجبيل)
 hr@almajdouie.com.sa
 jobs@halalogistics.com
@@ -634,7 +360,6 @@ recruitment@mgl.sa
 hr@sh-logistics.com
 jobs@naqel.com
 recruitment@aymkan.com
-
 # شركات المصانع التحويلية (الصناعية الثانية بالدمام)
 hr@takween.com
 jobs@plasco.com.sa
@@ -642,7 +367,6 @@ recruitment@napco.com.sa
 hr@indevco.com
 jobs@rowad.sa
 recruitment@mepco.biz
-
 # شركات المواد الاستهلاكية والمنظفات (الدمام والجبيل)
 recruitment@pg.com
 hr@unilever.com
@@ -651,7 +375,6 @@ recruitment@basamh.com.sa
 hr@colgate.com.sa
 jobs@henkel.com.sa
 recruitment@napco-products.com
-
 # مجموعات تجارية منوعة (الشرقية)
 hr@al-suhaimi.com.sa
 jobs@al-falaq.com.sa
@@ -660,14 +383,12 @@ hr@al-hoty.com.sa
 jobs@al-shuwayer.com
 recruitment@al-qahtani.com.sa
 hr@al-hugayet.com.sa
-
 # شركات النشر والمكتبات والخدمات التعليمية
 hr@jarir.com
 jobs@obekan.com.sa
 recruitment@al-khaleej.com.sa
 hr@tstc.com.sa
 jobs@saudiedu.sa
-
 # شركات الصرافة وتحويل الأموال (استقبال وأمن ثانوي)
 hr@alrajhibank.com.sa
 jobs@tahweelalrajhi.com.sa
@@ -675,21 +396,18 @@ recruitment@enjaz.com.sa
 hr@telemoney.com.sa
 jobs@quickpay.com.sa
 recruitment@alinmapay.com.sa
-
 # شركات المستودعات والتخزين (الشرقية)
 hr@lsc-logistics.com
 jobs@sh-logistics.com
 recruitment@hala.com.sa
 hr@naqel.com.sa
 jobs@logipoint.sa
-
 # قطاع الخدمات الغذائية (إضافية)
 hr@alshaya.com
 jobs@amrest.eu
 recruitment@azadea.com
 hr@al-ghanim.com
 jobs@americana-foods.com
-
 # شركات التجهيزات الفندقية والسياحة (الشرقية)
 recruitment@dur.sa
 hr@al-hokair.com
@@ -697,7 +415,6 @@ jobs@shaza-hotels.com
 recruitment@seera.sa
 hr@almusafer.com
 jobs@altayyar.com.sa
-
 # شركات توريد الأجهزة والمستلزمات الطبية
 hr@salehiya.com
 jobs@amco.com.sa
@@ -705,7 +422,6 @@ recruitment@tamergroup.com
 hr@al-faisaliah.com
 jobs@mediserv.com.sa
 recruitment@isams.com.sa
-
 # مكاتب تأجير السيارات (إداري ومبيعات بالشرقية)
 hr@budgetsaudi.com
 jobs@yelo.sa
@@ -713,14 +429,12 @@ recruitment@key.sa
 hr@thebest.sa
 jobs@hertz.com.sa
 recruitment@shift.sa
-
 # مصانع الأثاث والديكور بالدمام والخبر
 hr@almutlaq.com
 jobs@al-amer.com
 recruitment@al-ayuni.com.sa
 hr@al-rashid-furniture.com
 jobs@saudi-furniture.sa
-
 # شركات المطاعم العالمية (الشرقية)
 hr@alshaya.com
 jobs@kudu.com.sa
@@ -728,15 +442,12 @@ recruitment@herfy.com.sa
 hr@taza.com.sa
 jobs@maestro-pizza.com
 recruitment@shawayat.com
-
 # شركات الحراسات الأمنية (إضافية)
 hr@g4s.com.sa
 jobs@al-majal.com
 recruitment@icss.com.sa
 hr@security-solutions.com
 jobs@security-gates.sa
-
-
 # شركات التطوير العقاري وإدارة الأملاك (الشرقية)
 recruitment@retal.com.sa
 hr@adeer.sa
@@ -745,7 +456,6 @@ recruitment@ajdan.com.sa
 hr@alyousuf.com.sa
 jobs@hakagroup.com
 recruitment@ebat.com.sa
-
 # شركات الصيانة والخدمات التخصصية (الجبيل والدمام)
 hr@stsc.com.sa
 jobs@sendan.com.sa
@@ -754,7 +464,6 @@ hr@expertise-it.com
 jobs@ansab.com.sa
 recruitment@isacc.com.sa
 hr@saudifalak.com.sa
-
 # شركات النقل والتوزيع اللوجستي (إضافية)
 hr@aramex.com
 jobs@smsaexpress.com
@@ -763,7 +472,6 @@ hr@dhl.com.sa
 jobs@fedex.sa
 recruitment@aymkan.com
 hr@jtexpress.sa
-
 # شركات الأغذية والمخابز الكبرى (الشرقية)
 recruitment@lusine.com
 hr@7days.sa
@@ -771,7 +479,6 @@ jobs@herfyfoods.com
 recruitment@kudu.com.sa
 hr@shawayat.com
 jobs@almunajem.com
-
 # شركات متنوعة ونشطة في التوظيف (الشرقية)
 hr@alkhorayef.com
 jobs@zamilindustrial.com
@@ -783,7 +490,6 @@ hr@rawabiholding.com
 jobs@al-rashid.com
 recruitment@alfalak.com
 hr@dar-al-riyadh.com
-
 # شركات الخرسانة والمنتجات الإنشائية (الشرقية)
 recruitment@alkifah-precast.com
 hr@qcc.com.sa
@@ -791,7 +497,6 @@ jobs@saudireadymix.com.sa
 recruitment@al-falah.com
 hr@readymix.sa
 jobs@pms-precast.com
-
 # شركات المصاعد والأنظمة الأمنية (مبيعات وفنيين ثانوي)
 hr@otis.com.sa
 jobs@schindler.sa
@@ -799,7 +504,6 @@ recruitment@kone-sa.com
 hr@thyssenkrupp-sa.com
 jobs@mitsubishi-elevators.sa
 recruitment@zamil-elevators.com
-
 # مصانع البلاستيك والورق (المنطقة الصناعية الثانية بالدمام)
 hr@saudipaper.com
 jobs@takween.com.sa
@@ -807,7 +511,6 @@ recruitment@napco-group.com
 hr@rowad.com
 jobs@plasco.sa
 recruitment@indevco-group.com
-
 # شركات الخدمات البترولية والمقاولات (الخبر والجبيل)
 hr@arabian-drilling.com
 jobs@expertise-it.com
@@ -815,7 +518,6 @@ recruitment@sendan.com.sa
 hr@aytb.com.sa
 jobs@shoaibi-group.com
 recruitment@rawabi-holding.com
-
 # شركات التوزيع والسلع الاستهلاكية
 hr@basamh.com.sa
 jobs@unilever.sa
@@ -823,14 +525,12 @@ recruitment@pg-saudi.com
 hr@henkel.sa
 jobs@reckitt-sa.com
 recruitment@mars-sa.com
-
 # مكاتب هندسية وشركات مساندة (استقبال ومعقبين ثانوي)
 hr@dar-al-riyadh.com
 jobs@khatibalamami.sa
 recruitment@saudiconsult.com
 hr@vanship.com
 jobs@alfalak.sa
-
 # شركات الخدمات البحرية وصيانة السفن (الدمام والجبيل)
 recruitment@zamiloffshore.com
 hr@asry.net
@@ -838,7 +538,6 @@ jobs@milaha.com
 recruitment@vanship.com
 hr@saudigeo.com
 jobs@nsh-group.com
-
 # شركات الخدمات المساندة بمطار الملك فهد (الدمام)
 hr@sgs.org.sa
 jobs@sal.sa
@@ -846,7 +545,6 @@ recruitment@saudiacatering.com
 hr@flynas.com
 jobs@skyprime.aero
 recruitment@saudia.com
-
 # شركات الصناعات الثقيلة والمعدات (الشرقية)
 hr@zahid.com
 jobs@kanoo.com
@@ -854,7 +552,6 @@ recruitment@saudi-diesel.com.sa
 hr@al-ghassan.com
 jobs@e-juffali.com.sa
 recruitment@medco1.com
-
 # شركات التوظيف والتشغيل (تطلب ثانوي بكثرة لمشاريع حكومية)
 hr@smasco.com
 jobs@maharah.com
@@ -862,21 +559,18 @@ recruitment@mueen.com.sa
 hr@linas.com.sa
 jobs@tamm-hr.com
 recruitment@fursan.sa
-
 # شركات إضافية في الجبيل وينبع (صناعية)
 hr@tasnee.com
 jobs@sipchem.com
 recruitment@chemanol.com
 hr@advancedpetrochem.com
 jobs@marafiq.com.sa
-
 # شركات التموين والإعاشة والمغاسل المركزية
 hr@alkifah-catering.com
 jobs@gulfcatering.com
 recruitment@saudicatering.com
 hr@abbar.com
 jobs@almunajem-cold.com
-
 # شركات تصنيع اللوحات والمعدات الكهربائية (الدمام والجبيل)
 hr@alfanar.com
 jobs@riyadh-cables.com.sa
@@ -884,14 +578,12 @@ recruitment@saudicable.com.sa
 hr@wescosa.com.sa
 jobs@pauwels.com.sa
 recruitment@f-al-abdulkareem.com
-
 # شركات الأثاث والتجهيزات المكتبية والفندقية (الشرقية)
 hr@almutlaq-furniture.com
 jobs@al-jedaie.com.sa
 recruitment@kitcherama.com.sa
 hr@habib-furniture.com
 jobs@al-amer.sa
-
 # شركات توزيع الغاز والمواد الكيماوية (الجبيل والدمام)
 hr@gasco.com.sa
 jobs@unigas.com.sa
@@ -899,7 +591,6 @@ recruitment@sabic.com
 hr@sipchem.com.sa
 jobs@advancedpetrochem.com
 recruitment@chemanol.com.sa
-
 # شركات النظافة والصيانة والتشغيل (الدمام والخبر)
 hr@samnan.com.sa
 jobs@seder.com.sa
@@ -907,7 +598,6 @@ recruitment@fms.com.sa
 hr@sraco.com.sa
 jobs@init.sa
 recruitment@mosh.gov.sa
-
 # مكاتب تأجير المعدات الثقيلة والمقاولات (الشرقية)
 hr@rezayat.com
 jobs@al-tamimi.com.sa
@@ -915,7 +605,6 @@ recruitment@dayim.com.sa
 hr@bin-quarai.com
 jobs@al-ayuni.com
 recruitment@alkhorayef.sa
-
 # شركات المواد الغذائية والمستهلكات الإضافية
 hr@basamh.sa
 jobs@almunajem.sa
@@ -923,7 +612,6 @@ recruitment@nadec.com
 hr@nadawater.com
 jobs@hana-water.sa
 recruitment@tania-water.sa
-
 # شركات الخرسانة والمنتجات الأسمنتية (الشرقية)
 hr@saudireadymix.com
 jobs@alkifahprecast.com.sa
@@ -931,7 +619,6 @@ recruitment@readymix.sa
 hr@qcc.sa
 jobs@alfalah.com.sa
 recruitment@pms.com.sa
-
 # شركات التقنية والاتصالات (وظائف استقبال ودعم فني ثانوي)
 hr@stcs.com.sa
 jobs@solutions.com.sa
@@ -939,14 +626,12 @@ recruitment@mis.com.sa
 hr@nournet.sa
 jobs@detasad.sa
 recruitment@ict.com.sa
-
 # مصانع الأدوية والمستلزمات الطبية (الشرقية)
 hr@spimaco.com.sa
 jobs@jamjoompharma.com
 recruitment@tamergroup.sa
 hr@saudipharm.sa
 jobs@al-faisaliah.sa
-
 # شركات المقاولات والبناء (الخبر والدمام)
 hr@al-ayuni.com.sa
 jobs@fawaz-alhokair.com
@@ -954,21 +639,18 @@ recruitment@al-tamimi.sa
 hr@el-seif.com
 jobs@saudi-lebanese.sa
 recruitment@bin-ladin.sa
-
 # شركات النقل والمواصلات العامة
 hr@saptco.com.sa
 jobs@uber.com
 recruitment@careem.sa
 hr@lumarental.com
 jobs@hertz.sa
-
 # شركات التأمين (فروع الشرقية)
 hr@bupa.com.sa
 jobs@medgulf.com.sa
 recruitment@tauniya.com.sa
 hr@malath.com.sa
 jobs@acig.com.sa
-
 # شركات تصنيع الأغذية والوجبات الخفيفة (الدمام والجبيل)
 hr@halwani.com.sa
 jobs@goody.com.sa
@@ -976,7 +658,6 @@ recruitment@americana-foods.com
 hr@deemah.com.sa
 jobs@lsh.com.sa
 recruitment@arabian-food.com
-
 # شركات الخدمات اللوجستية وإدارة الموانئ (الدمام)
 hr@rsgt.com
 jobs@saudiglobalports.com.sa
@@ -984,7 +665,6 @@ recruitment@dpworld.com
 hr@vanship.sa
 jobs@bahri.sa
 recruitment@globemarine.sa
-
 # شركات الكيماويات والدهانات المتخصصة (الشرقية)
 hr@satorp.com
 jobs@sadara.com
@@ -992,21 +672,18 @@ recruitment@samref.com.sa
 hr@yasref.com.sa
 jobs@sipchem.sa
 recruitment@jotun.sa
-
 # شركات صيانة المصاعد والأنظمة الميكانيكية
 hr@otis-sa.com
 jobs@schindler-sa.com
 recruitment@thyssenkrupp.sa
 hr@kone-sa.com
 jobs@zamil-elevators.sa
-
 # شركات توزيع الأجهزة الطبية والمخبرية
 hr@salehiya.sa
 jobs@tamer-sa.com
 recruitment@al-faisaliah.sa
 hr@arabian-medical.sa
 jobs@mediserv.sa
-
 # مجموعات تجارية متنوعة في المنطقة الشرقية
 hr@al-hugayet.sa
 jobs@shoaibi.sa
@@ -1014,7 +691,6 @@ recruitment@al-abdulkarim.sa
 hr@al-qahtani.sa
 jobs@al-hoty.sa
 recruitment@dar-al-riyadh.sa
-
 # شركات الترفيه والمجمعات السينمائية (الدمام والخبر - وظائف ثانوي)
 hr@muvicinemas.com
 jobs@voxcinemas.com
@@ -1022,7 +698,6 @@ recruitment@amccinemas.sa
 hr@al-hokair.com
 jobs@fawaz-alhokair.com
 recruitment@cenomi.com
-
 # شركات الخدمات اللوجستية والميل الأخير (توصيل وتشغيل)
 hr@barq.delivery
 jobs@ninjacart.com
@@ -1030,7 +705,6 @@ recruitment@redboxsa.com
 hr@torod.co
 jobs@diggipacks.com
 recruitment@logistigate.com
-
 # شركات المقاولات المتخصصة في البنية التحتية (الشرقية)
 hr@rtcc.com.sa
 jobs@alkhuraief.com
@@ -1038,7 +712,6 @@ recruitment@al-rawaf.com.sa
 hr@mohammad-al-mojil.com
 jobs@nsh-group.com
 recruitment@sendan.sa
-
 # شركات الصيانة والتشغيل العقاري (إضافية)
 hr@mosh.sa
 jobs@init.com.sa
@@ -1046,21 +719,18 @@ recruitment@almajalg4s.sa
 hr@seder.sa
 jobs@tamimi-global.com
 recruitment@rezayat-group.com
-
 # شركات الأجهزة الكهربائية والمقاولات الكهروميكانيكية
 hr@alfanar.sa
 jobs@wescosa.com
 recruitment@riyadh-cables.sa
 hr@saudicable.sa
 jobs@bahra-cables.sa
-
 # شركات المطاحن والمخابز (الشرقية)
 hr@mc1.com.sa
 jobs@mc2.sa
 recruitment@mc3.sa
 hr@nupco.com.sa
 jobs@almarai.sa
-
 # شركات الخرسانة والمنتجات الإسمنتية (الدمام والجبيل)
 hr@qcc.com.sa
 jobs@saudireadymix.com
@@ -1068,7 +738,6 @@ recruitment@alkifahprecast.com
 hr@alfalah.com.sa
 jobs@readymix.sa
 recruitment@pms.com.sa
-
 # شركات الخدمات اللوجستية للبترول والغاز (الخبر والظهران)
 hr@arabian-drilling.com
 jobs@expertise-it.com
@@ -1076,14 +745,12 @@ recruitment@rawabiholding.com
 hr@shoaibi.com
 jobs@sh-logistics.com.sa
 recruitment@al-abdulkarim.com
-
 # شركات توريد المعدات الطبية والمخبرية (الشرقية)
 hr@tamergroup.sa
 jobs@salehiya.com
 recruitment@mediserv.com.sa
 hr@al-faisaliah.com
 jobs@amco.com.sa
-
 # شركات صناعة المنظفات والمواد الاستهلاكية
 hr@pg.com
 jobs@unilever.com
@@ -1091,14 +758,12 @@ recruitment@basamh.com.sa
 hr@henkel.sa
 jobs@reckitt.com
 recruitment@napco-products.com
-
 # شركات المقاولات والصيانة التخصصية (إضافية)
 hr@el-seif.com.sa
 jobs@sendan.com.sa
 recruitment@aytb.com.sa
 hr@isacc.com.sa
 jobs@ansab.com.sa
-
 # شركات النقل والتوزيع (فروع الشرقية)
 hr@aramex.com
 jobs@smsaexpress.com.sa
@@ -1106,7 +771,6 @@ recruitment@naqel.com.sa
 hr@jtexpress.com.sa
 jobs@careem.com
 recruitment@hungerstation.com
-
 # شركات المقاولات الكهربائية والطاقة (الشرقية)
 hr@wescosa.com.sa
 jobs@alfanar.com.sa
@@ -1114,7 +778,6 @@ recruitment@saudicables.com
 hr@riyadh-cables.com
 jobs@bahra-cables.com
 recruitment@f-al-abdulkareem.com
-
 # شركات الأنابيب والصلب (الجبيل والدمام)
 hr@sspipe.com.sa
 jobs@tenaris.com
@@ -1122,7 +785,6 @@ recruitment@arabiapipe.com
 hr@globalpipe.com.sa
 jobs@zamilsteel.com
 recruitment@jssc.sa
-
 # شركات توزيع المواد الغذائية والخدمات اللوجستية
 hr@almunajem.com.sa
 jobs@basamh.com
@@ -1130,7 +792,6 @@ recruitment@binzagr.com.sa
 hr@goody.com.sa
 jobs@halwani.com
 recruitment@balsharaf.sa
-
 # شركات النظافة والتشغيل (عقود كبرى بالشرقية)
 hr@almajalg4s.sa
 jobs@seder.com.sa
@@ -1138,7 +799,6 @@ recruitment@fms.sa
 hr@sraco.com
 jobs@init.sa
 recruitment@mosh.gov.sa
-
 # شركات تصنيع المنتجات الورقية والبلاستيكية
 hr@napco-group.com
 jobs@saudipaper.com
@@ -1146,7 +806,6 @@ recruitment@takween.com.sa
 hr@indevco-group.com
 jobs@plasco.com.sa
 recruitment@mepco-sa.com
-
 # شركات إضافية متنوعة في الدمام والخبر
 hr@alkhorayef.sa
 jobs@shoaibi-group.com
@@ -1154,7 +813,6 @@ recruitment@al-ayuni.com
 hr@el-seif.sa
 jobs@dar-al-riyadh.sa
 recruitment@zamilindustrial.sa
-
 # مراكز الاتصال وتعهيد الأعمال (وظائف خدمة عملاء ثانوي)
 careers@extensya.com
 hr@ccc.sa
@@ -1162,7 +820,6 @@ jobs@teleperformance.com
 recruitment@xceedcc.com
 hr@aegisglobal.com
 jobs@sutherlandglobal.com
-
 # شركات الخدمات اللوجستية والميل الأخير (ناشئة وكبرى)
 recruitment@imile.me
 hr@aj-ex.com
@@ -1171,7 +828,6 @@ recruitment@mylerz.com
 hr@flowpl.com
 jobs@jahiz.net
 recruitment@toyou.io
-
 # شركات الخدمات الصناعية والبيئية (الجبيل والدمام)
 hr@sepco.com.sa
 jobs@beeah.sa
@@ -1179,14 +835,12 @@ recruitment@saudienv.com
 hr@edco.com.sa
 jobs@enviroserve.sa
 recruitment@suez-saudi.com
-
 # شركات تصنيع المحولات والمعدات الكهربائية
 hr@stc-electric.com
 jobs@pavels.com.sa
 recruitment@sauditrafo.com
 hr@mepco-sa.com
 jobs@arabian-transformers.com
-
 # شركات المفروشات والمطابخ (الدمام والخبر)
 hr@al-mutlaq.com.sa
 jobs@ikea.com.sa
@@ -1194,7 +848,6 @@ recruitment@abyat.com
 hr@al-jedaie.com
 jobs@kitcherama.sa
 recruitment@scandinavia-furniture.com
-
 # شركات متنوعة في المدن الصناعية
 hr@saudisteel.com.sa
 jobs@amiyantit.sa
@@ -1202,7 +855,6 @@ recruitment@zamil-ac.com
 hr@al-falaq.sa
 jobs@nsh-group.sa
 recruitment@alkhorayef.com
-
 # شركات إدارة وتواجد المولات والمجمعات (الظهران والدمام)
 hr@cenomi.com
 jobs@al-othaim.com
@@ -1210,7 +862,6 @@ recruitment@hamat.sa
 hr@unified.com.sa
 jobs@kinan.com.sa
 recruitment@mubarak-realestate.com
-
 # شركات نقل السيارات والخدمات اللوجستية للمركبات
 hr@al-bassami.com.sa
 jobs@alfalak.com
@@ -1218,14 +869,12 @@ recruitment@saudidiesel.com
 hr@halalogistics.com
 jobs@naqel.sa
 recruitment@aymkan.sa
-
 # شركات الخرسانة والمنتجات الأسمنتية (إضافية)
 hr@alkifah.com
 jobs@saudireadymix.sa
 recruitment@readymix-concrete.com
 hr@altamimi-group.com
 jobs@binsamar.com.sa
-
 # مصانع الأغذية والحلويات (الشرقية)
 hr@nadec.com.sa
 jobs@almarai.com
@@ -1233,7 +882,6 @@ recruitment@nada.com.sa
 hr@pioneer-foods.com
 jobs@lsh.com.sa
 recruitment@gulf-catering.com
-
 # شركات الصيانة والتشغيل (الجبيل والدمام)
 hr@aytb.com
 jobs@sendan.sa
@@ -1241,7 +889,6 @@ recruitment@expertise.sa
 hr@isacc.sa
 jobs@ansab.com
 recruitment@alkhorayef.com
-
 # شركات متنوعة في صناعية الخبر والدمام
 hr@zamilindustrial.com
 jobs@alkifah.sa
@@ -1249,7 +896,6 @@ recruitment@rawabiholding.sa
 hr@rezayat.sa
 jobs@al-suhaimi.sa
 recruitment@al-abdulkarim.sa
-
 # قطاع التجزئة والأسواق المركزية (الشرقية)
 hr@danube.sa
 jobs@bin-dawood.com
@@ -1258,7 +904,6 @@ hr@farm.com.sa
 jobs@tamimimarkets.com
 recruitment@lulu-hypermarket.com
 hr@panda.com.sa
-
 # وكلاء قطع الغيار ومستلزمات السيارات (الدمام والخبر)
 hr@almajdouie.com
 jobs@al-futtaim.com.sa
@@ -1266,7 +911,6 @@ recruitment@alnaghi.com
 hr@petromin.com
 jobs@yanas.com.sa
 recruitment@al-ghassan.com
-
 # شركات الشحن البحري والخدمات الملاحية (الجبيل والدمام)
 hr@bahri.sa
 jobs@vanship.com
@@ -1274,7 +918,6 @@ recruitment@milaha.com.sa
 hr@zamiloffshore.com.sa
 jobs@globemarine.sa
 recruitment@saudiglobalports.com
-
 # شركات تصنيع البلاستيك والتغليف (المدن الصناعية)
 hr@takween.com.sa
 jobs@napco-group.com
@@ -1282,7 +925,6 @@ recruitment@plasco.com.sa
 hr@mepco.sa
 jobs@rowad-plastic.com
 recruitment@saudipaper.com
-
 # شركات المقاولات والتشغيل (المنطقة الشرقية)
 hr@al-ayuni.sa
 jobs@rezayat.com.sa
@@ -1290,14 +932,12 @@ recruitment@alkhorayef.com.sa
 hr@al-hugayet.sa
 jobs@shoaibi-group.com
 recruitment@dar-al-riyadh.sa
-
 # شركات إضافية متنوعة (الشرقية)
 hr@stcs.com.sa
 jobs@solutions.com.sa
 recruitment@detasad.com.sa
 hr@nournet.com.sa
 jobs@mis.com.sa
-
 # --- قطاع النفط والغاز والمقاولات الصناعية (الظهران، الجبيل، الخبر) ---
 recruitment.asry@asry.net
 jobs@saudi-diesel.com
@@ -1321,7 +961,6 @@ hr@saudigeo.com
 recruitment@vanship.com
 hr@adams-sa.com
 jobs@dar-al-riyadh.com
-
 # --- قطاع التجزئة، التموين، والفنادق (الدمام، الخبر، الظهران) ---
 recruitment@alshaya.com
 hr@azadea.com
@@ -1343,7 +982,6 @@ hr@sheraton.com
 jobs@hilton.com
 recruitment@marriott.com
 hr@ihg.com
-
 # --- قطاع اللوجستيات، الموانئ، والنقل (المنطقة الشرقية) ---
 recruitment@naqel.com.sa
 hr@aramex.com
@@ -1363,7 +1001,6 @@ jobs@budgetsaudi.com
 recruitment@yelo.sa
 hr@key.sa
 jobs@thebest.sa
-
 # --- المصانع (صناعية الدمام 1، 2، 3 والجبيل) ---
 hr@zamilindustrial.com
 jobs@alkifah.com.sa
@@ -1387,7 +1024,6 @@ hr@almarai.com
 jobs@nada.com.sa
 recruitment@hana-water.sa
 hr@nadi-water.com
-
 # --- شركات التقنية، الصيانة، والخدمات ---
 hr@stcs.com.sa
 jobs@solutions.com.sa
@@ -1405,7 +1041,6 @@ hr@samnan.com.sa
 jobs@al-essa.com.sa
 recruitment@zagzoog.com
 hr@shaker.com.sa
-
 # --- شركات المقاولات والإنشاءات (الشرقية) ---
 hr@al-ayuni.com
 jobs@el-seif.com.sa
@@ -1425,7 +1060,6 @@ recruitment@al-osais.com.sa
 hr@saudietihad.com
 jobs@zamilsteel.com
 recruitment@saudi-archirodon.com
-
 # --- شركات التجارة والتوزيع والمواد الغذائية ---
 hr@binzagr.com.sa
 jobs@balsharaf.com
@@ -1445,7 +1079,6 @@ recruitment@gulf-catering.com
 hr@taza.com.sa
 jobs@kudu.com.sa
 recruitment@herfy.com
-
 # --- وكالات الأجهزة والسيارات والخدمات ---
 hr@al-naghi.com
 jobs@al-futtaim.com.sa
@@ -1459,7 +1092,6 @@ recruitment@petromin.com
 hr@unitedmotors.com
 jobs@alissa-cars.com
 recruitment@alj.com
-
 # --- شركات صيانة ومصاعد وكهرباء ---
 hr@otis.com.sa
 jobs@schindler.com
@@ -1473,7 +1105,6 @@ recruitment@riyadh-cables.com
 hr@saudicables.com
 jobs@bahra-cables.com
 recruitment@mepco-sa.com
-
 # --- شركات لوجستية وشحن (إضافية) ---
 hr@aramex.com
 jobs@smsaexpress.com
@@ -1490,7 +1121,6 @@ recruitment@barq.delivery
 hr@ninjacart.com
 jobs@redboxsa.com
 recruitment@torod.co
-
 # --- قطاع الصحة والخدمات الطبية ---
 hr@tamergroup.sa
 jobs@salehiya.com
@@ -1505,7 +1135,6 @@ hr@al-habib.com
 jobs@dallah-health.com
 recruitment@mouwasat.com
 hr@sghgroup.sa
-
 # --- شركات الجبيل الصناعية (بتروكيماويات وخدمات مساندة) ---
 recruitment@sabic.com
 hr@tasnee.com
@@ -1524,7 +1153,6 @@ hr@petrokemya.com.sa
 jobs@sharq.com.sa
 recruitment@ar-razi.com.sa
 hr@kaden.sa
-
 # --- شركات الشحن البحري والخدمات اللوجستية (الدمام والجبيل) ---
 hr@saudiglobalports.com.sa
 jobs@globemarine.com.sa
@@ -1537,7 +1165,6 @@ jobs@bakri.com.sa
 recruitment@nsh-group.com
 hr@saudigeo.com
 jobs@arabian-drilling.com
-
 # --- شركات الصيانة والتشغيل (المنطقة الشرقية) ---
 hr@sraco.com.sa
 jobs@init.sa
@@ -1553,7 +1180,6 @@ jobs@sendan.com.sa
 recruitment@isacc.com.sa
 hr@ansab.com.sa
 jobs@al-ayuni.com.sa
-
 # --- شركات الأجهزة والحلول التقنية (فروع الشرقية) ---
 hr@stcs.com.sa
 jobs@solutions.com.sa
@@ -1566,7 +1192,6 @@ jobs@yanas.com.sa
 recruitment@medco1.com
 hr@zahid.com
 jobs@kanoo.com
-
 # --- قطاع الأغذية والتوزيع (إضافية) ---
 hr@almunajem.com.sa
 jobs@basamh.com
@@ -1580,7 +1205,6 @@ recruitment@nada.com.sa
 hr@saudidairy.com
 jobs@hana-water.sa
 recruitment@lsh.com.sa
-
 # --- مكاتب وشركات متنوعة (إداري واستقبال) ---
 hr@dar-al-riyadh.com
 jobs@khatibalamami.com
@@ -1592,7 +1216,6 @@ hr@alkhorayef.com
 jobs@zamilindustrial.com
 recruitment@alkifah.com
 hr@almajdouie.com
-
 # --- مجموعات استثمارية وقابضة (تملك قطاعات متعددة) ---
 hr@alkifah.com.sa
 jobs@al-othman.com
@@ -1612,7 +1235,6 @@ recruitment@alfalak.com
 hr@al-hoty.com
 jobs@nesma.com
 recruitment@alfaisaliah.com
-
 # --- شركات الخرسانة، الألمنيوم، والزجاج (الشرقية) ---
 hr@saudireadymix.com.sa
 jobs@qcc.com.sa
@@ -1626,7 +1248,6 @@ recruitment@alupco.com
 hr@talco.com.sa
 jobs@napco-group.com
 recruitment@indevco-group.com
-
 # --- شركات التجزئة والأزياء (تطلب ثانوي بكثرة) ---
 hr@alshaya.com
 jobs@azadea.com
@@ -1636,7 +1257,6 @@ jobs@appareluae.com
 recruitment@chalhoub.com
 hr@landmarkgroup.com
 jobs@rivoligroup.com
-
 # --- شركات الحراسات الأمنية والخدمات المساندة (تحديث) ---
 hr@g4s.com.sa
 jobs@al-majal.com
@@ -1646,7 +1266,6 @@ jobs@security-gates.sa
 recruitment@securesa.com
 hr@protection.com.sa
 jobs@guarding.sa
-
 # --- شركات الخدمات اللوجستية والبريد ---
 hr@aramex.com
 jobs@smsaexpress.com
@@ -1658,7 +1277,6 @@ hr@ups.com
 jobs@zajil-express.com
 recruitment@aymkan.com
 hr@redboxsa.com
-
 # --- شركات التأمين (وظائف إدارية ومبيعات بالشرقية) ---
 hr@bupa.com.sa
 jobs@tauniya.com.sa
@@ -1668,7 +1286,6 @@ jobs@acig.com.sa
 recruitment@salama.com.sa
 hr@walas.com.sa
 jobs@allianz.com.sa
-
 # --- شركات متنوعة في صناعية الدمام والجبيل ---
 hr@saudisteel.com
 jobs@amiyantit.sa
@@ -1678,7 +1295,6 @@ jobs@chemanol.com
 recruitment@tasnee.com
 hr@advancedpetrochem.com
 jobs@marafiq.sa
-
 # --- شركات الاستشارات الهندسية والتصميم (الشرقية) ---
 hr@dar-al-riyadh.com
 jobs@khatibalamami.com
@@ -1692,7 +1308,6 @@ recruitment@atkinsrealis.com
 hr@zuhairfayez.com
 jobs@al-ayuni.sa
 recruitment@saudidietman.com
-
 # --- شركات السياحة، السفر، وتنظيم الفعاليات ---
 hr@seera.sa
 jobs@almusafer.com
@@ -1704,7 +1319,6 @@ hr@atp.com.sa
 jobs@itravel.com.sa
 recruitment@luxury-events.sa
 hr@benchmark.sa
-
 # --- شركات الدعاية، الإعلان، والطباعة ---
 hr@al-madina.com
 jobs@al-jazirah.com
@@ -1714,7 +1328,6 @@ jobs@saudi-advertising.com
 recruitment@moia.com.sa
 hr@print.sa
 jobs@digital-media.sa
-
 # --- شركات التجهيزات والمقاولات الميكانيكية (الجبيل) ---
 hr@expertise.com.sa
 jobs@sendan.com.sa
@@ -1726,7 +1339,6 @@ hr@nsh-group.sa
 jobs@sendan-sa.com
 recruitment@jgc.com.sa
 hr@chiyoda.com.sa
-
 # --- شركات التجارة والاستيراد (الدمام والخبر) ---
 hr@al-abdulkarim.sa
 jobs@al-hugayet.sa
@@ -1738,7 +1350,6 @@ hr@tamimi-global.sa
 jobs@haka.sa
 recruitment@alkhorayef.com
 hr@almajdouie.sa
-
 # --- شركات تكنولوجيا المعلومات والاتصالات ---
 hr@stcs.com.sa
 jobs@solutions.com.sa
@@ -1750,7 +1361,6 @@ hr@mobily.com.sa
 jobs@stc.com.sa
 recruitment@zain.com.sa
 hr@go.com.sa
-
 # --- شركات التموين والإعاشة والمطاعم ---
 hr@saudiacatering.sa
 jobs@gulfcatering.sa
@@ -1762,7 +1372,6 @@ hr@taza.sa
 jobs@maestro.sa
 recruitment@dominospizza.sa
 hr@pizzahut.sa
-
 # --- شركات النقل البري والخدمات اللوجستية الثقيلة ---
 hr@mubarrad.com.sa
 jobs@hala-logistics.com
@@ -1775,7 +1384,6 @@ jobs@al-futaiss.com.sa
 recruitment@naas-transport.com
 hr@abouarab.com.sa
 jobs@bin-tami.com
-
 # --- شركات الأثاث، الديكور، والمفروشات (تطلب مبيعات ثانوي) ---
 hr@ikea.com.sa
 jobs@abyat.com
@@ -1788,7 +1396,6 @@ jobs@al-amer.sa
 recruitment@scandinavia.sa
 hr@pan-emirates.com
 jobs@home-centre.sa
-
 # --- شركات توزيع الأدوية والمستلزمات الطبية (الشرقية) ---
 hr@salehiya.com.sa
 jobs@tamergroup.com
@@ -1800,7 +1407,6 @@ hr@cigalah.com.sa
 jobs@banaja.com.sa
 recruitment@nahdi.sa
 hr@al-dawaa.com.sa
-
 # --- شركات المقاولات والصناعة (إضافية) ---
 hr@zamilindustrial.com
 jobs@saudi-steel.com
@@ -1813,7 +1419,6 @@ jobs@al-qahtani.com
 recruitment@al-hoty.com
 hr@dar-al-riyadh.com
 jobs@nesma-partners.com
-
 # --- شركات التشغيل والصيانة (مستشفيات وجهات حكومية) ---
 hr@seder.com.sa
 jobs@sraco.com.sa
@@ -1825,7 +1430,6 @@ hr@samnan.com.sa
 jobs@zamil-oms.com
 recruitment@vaceo.com.sa
 hr@atco.com.sa
-
 # --- شركات متنوعة في صناعية الدمام 2 و3 ---
 hr@saudipaper.com
 jobs@takween.com.sa
@@ -1837,7 +1441,6 @@ hr@alupco.com
 jobs@talco.com
 recruitment@zoujaj.com
 hr@saudiglass.com
-
 # --- شركات التجزئة والأزياء (تحديث) ---
 hr@alshaya.com
 jobs@azadea.com
@@ -1847,7 +1450,6 @@ jobs@apparel.sa
 recruitment@chalhoub.com
 hr@landmark.sa
 jobs@rivoli.sa
-
 # --- قطاع التجزئة، السوبر ماركت، والتجارة (الشرقية) ---
 recruitment@danube.sa
 jobs@bin-dawood.com
@@ -1869,7 +1471,6 @@ recruitment@pioneer-foods.com
 hr@nadec.com.sa
 jobs@almarai.com
 recruitment@nada.com.sa
-
 # --- شركات التأمين والخدمات المالية (وظائف إدارية بالشرقية) ---
 hr@bupa.com.sa
 jobs@tauniya.com.sa
@@ -1883,7 +1484,6 @@ recruitment@tala.com.sa
 hr@axa-gulf.com
 jobs@deraya.com
 recruitment@alahlitakaful.com
-
 # --- شركات المقاولات والتشغيل (إضافية - الجبيل والدمام) ---
 hr@rtcc.com.sa
 jobs@nesma-partners.com
@@ -1903,7 +1503,6 @@ recruitment@expertise.sa
 hr@sendan.com.sa
 jobs@isacc.sa
 recruitment@ansab.sa
-
 # --- شركات التقنية والاتصالات والدعم الفني ---
 hr@stcs.com.sa
 jobs@solutions.com.sa
@@ -1917,7 +1516,6 @@ recruitment@zain.com.sa
 hr@go.com.sa
 jobs@virginmobile.sa
 recruitment@lebara.sa
-
 # --- شركات النقل واللوجستيات والموانئ ---
 hr@aramex.com
 jobs@smsaexpress.com
@@ -1933,7 +1531,6 @@ jobs@saudiglobalports.com.sa
 recruitment@bahri.sa
 hr@vanship.com
 jobs@globemarine.sa
-
 # --- مصانع متنوعة في المدن الصناعية ---
 hr@saudisteel.com
 jobs@amiyantit.sa
@@ -1949,7 +1546,6 @@ jobs@zoujaj.com.sa
 recruitment@napco-group.com
 hr@saudipaper.com
 jobs@takween.com.sa
-
 # --- قطاع وكلاء السيارات والمعدات الثقيلة (الشرقية) ---
 hr@almajdouie.com
 jobs@al-naghi.com
@@ -1969,7 +1565,6 @@ recruitment@alissa.com.sa
 hr@petromin.com
 jobs@fawaz-alhokair.com
 recruitment@motory.com
-
 # --- شركات الحراسات الأمنية (وظائف ثانوي فورية) ---
 hr@g4s.com.sa
 jobs@almajalg4s.com
@@ -1982,7 +1577,6 @@ jobs@icss.com.sa
 recruitment@secure-ways.sa
 hr@abana.com.sa
 jobs@security-solutions.sa
-
 # --- شركات التصنيع والمواد الإنشائية (الدمام والجبيل) ---
 hr@zamilindustrial.com
 jobs@alkifah.com.sa
@@ -2004,7 +1598,6 @@ jobs@plasco.sa
 recruitment@rowad.sa
 hr@indevco.sa
 jobs@al-ayuni.com.sa
-
 # --- شركات الحلول التقنية وخدمة العملاء (الخبر والدمام) ---
 hr@stcs.com.sa
 jobs@solutions.com.sa
@@ -2017,7 +1610,6 @@ jobs@ccc.sa
 recruitment@xceedcc.com
 hr@extensya.com
 jobs@sutherland.sa
-
 # --- قطاع الأغذية والمطاعم (فروع المنطقة الشرقية) ---
 hr@almarai.com
 jobs@nadec.com.sa
@@ -2034,7 +1626,6 @@ recruitment@dominospizza.sa
 hr@taza.com.sa
 jobs@alshaya.com
 recruitment@azadea.com
-
 # --- شركات متنوعة في صناعية الدمام 1 و 2 ---
 hr@shoaibi-group.com
 jobs@al-abdulkarim.com
@@ -2050,7 +1641,6 @@ jobs@sendan.sa
 recruitment@expertise.sa
 hr@isacc.sa
 jobs@ansab.sa
-
 # --- شركات الجبيل الصناعية (بتروكيماويات وصناعات تحويلية) ---
 hr@sipchem.com.sa
 jobs@chemanol.com.sa
@@ -2070,7 +1660,6 @@ recruitment@hadid.com.sa
 hr@safco.com.sa
 jobs@kayan.com.sa
 recruitment@yanpet.com.sa
-
 # --- شركات ميناء الدمام والخدمات اللوجستية (شرق المملكة) ---
 hr@saudiglobalports.com.sa
 jobs@rsgt.com
@@ -2085,7 +1674,6 @@ hr@bakri.com.sa
 jobs@nsh-group.sa
 recruitment@aytb.sa
 hr@expertise.sa
-
 # --- قطاع التعليم الأهلي والمعاهد (وظائف استقبال وإدارة لثانوي) ---
 hr@alkifah.edu.sa
 jobs@manarat.com.sa
@@ -2096,7 +1684,6 @@ recruitment@kau.edu.sa
 hr@niit.edu.sa
 jobs@spsp.edu.sa
 recruitment@tq.edu.sa
-
 # --- مجمعات ووكالات السيارات (تحديث شامل) ---
 hr@almajdouie.com.sa
 jobs@alj.com.sa
@@ -2113,7 +1700,6 @@ recruitment@al-jabr.sa
 hr@samaco.sa
 jobs@alissa.sa
 recruitment@petromin.sa
-
 # --- شركات متنوعة في المنطقة الشرقية (صناعية الدمام 2) ---
 hr@zamilindustrial.com
 jobs@saudisteel.sa
@@ -2133,7 +1719,6 @@ recruitment@mepco.sa
 hr@plasco.sa
 jobs@rowad.sa
 recruitment@indevco.sa
-
 # --- شركات التقنية والحلول الذكية ---
 hr@stcs.sa
 jobs@solutions.sa
@@ -2145,7 +1730,6 @@ hr@teleperformance.sa
 jobs@ccc.sa
 recruitment@xceed.sa
 hr@extensya.sa
-
 # --- قطاع المقاولات والتشغيل والصيانة (شامل - المنطقة الشرقية) ---
 hr@al-ayuni.com.sa | jobs@el-seif.com.sa | recruitment@nesma.com
 hr@al-rashid.sa | jobs@almabani.sa | recruitment@shabah-aljazira.com
@@ -2156,7 +1740,6 @@ hr@mosh.sa | jobs@samnan.sa | recruitment@atco.com.sa
 hr@vaceo.sa | jobs@isacc.sa | recruitment@ansab.sa
 hr@aytb.sa | jobs@expertise.sa | recruitment@sendan.sa
 hr@nsh.sa | jobs@stsc.sa | recruitment@jgc.sa
-
 # --- قطاع التجزئة، المجمعات، والمطاعم (فروع الشرقية) ---
 hr@cenomi.sa | jobs@alshaya.com | recruitment@azadea.com
 hr@fawaz-alhokair.sa | jobs@landmarkgroup.com | recruitment@chalhoub.com
@@ -2167,7 +1750,6 @@ hr@nadec.sa | jobs@almarai.sa | recruitment@nada.sa
 hr@herfy.sa | jobs@kudu.sa | recruitment@taza.sa
 hr@maestro.sa | jobs@dominospizza.sa | recruitment@pizzahut.sa
 hr@burgerking.sa | jobs@mcdonalds.sa | recruitment@hardees.sa
-
 # --- قطاع البنوك والتأمين (وظائف خدمة عملاء ثانوي) ---
 hr@stcpay.sa | jobs@urpay.sa | recruitment@tiqmo.sa
 hr@bupa.sa | jobs@tauniya.sa | recruitment@medgulf.sa
@@ -2175,7 +1757,6 @@ hr@malath.sa | jobs@acig.sa | recruitment@salama.sa
 hr@allianz.sa | jobs@axa.sa | recruitment@deraya.sa
 hr@alahli.sa | jobs@alrajhi.sa | recruitment@alinma.sa
 hr@riyadbank.sa | jobs@sabb.sa | recruitment@anb.sa
-
 # --- شركات التقنية والاتصالات والميل الأخير ---
 hr@stcs.sa | jobs@solutions.sa | recruitment@nournet.sa
 hr@detasad.sa | jobs@mis.sa | recruitment@ict.sa
@@ -2184,13 +1765,11 @@ hr@aramex.sa | jobs@smsa.sa | recruitment@naqel.sa
 hr@dhl.sa | jobs@fedex.sa | recruitment@ups.sa
 hr@jtexpress.sa | jobs@aymkan.sa | recruitment@redbox.sa
 hr@jahiz.sa | jobs@hungerstation.sa | recruitment@toyou.sa
-
 # --- مصانع ووكالات السيارات (الدمام والخبر) ---
 hr@almajdouie.sa | jobs@alj.sa | recruitment@naghi.sa
 hr@wallan.sa | jobs@tawkilat.sa | recruitment@alahliya.sa
 hr@juffali.sa | jobs@zahid.sa | recruitment@kanoo.sa
 hr@petromin.sa | jobs@yanas.sa | recruitment@aljabr.sa
-
 # --- قائمة إضافية سريعة لزيادة العدد (Copy-Paste) ---
 contact@saudicable.sa
 career@saudiglass.sa
@@ -2212,7 +1791,6 @@ recruitment@al-qahtani.sa
 hr@dar-al-riyadh.sa
 jobs@nesma-partners.sa
 recruitment@alkhorayef.sa
-
 # --- قطاع المقاولات والإنشاءات (المنطقة الشرقية) ---
 recruitment.dammam@nesma.com
 hr.jobs@al-ayuni.com.sa
@@ -2233,7 +1811,6 @@ jobs@dar-al-riyadh.sa
 hr@khatibalamami.com
 recruitment@saudiconsult.sa
 jobs@vaceo.com.sa
-
 # --- قطاع النفط والغاز والخدمات الصناعية (الجبيل والخبر) ---
 careers@sabic.com
 hr@sipchem.com.sa
@@ -2255,7 +1832,6 @@ hr@hadid.com.sa
 recruitment@safco.com.sa
 jobs@kayan.com.sa
 hr@swcc.gov.sa
-
 # --- شركات الخدمات المساندة واللوجستية (ميناء الدمام والجبيل) ---
 recruitment@saudiglobalports.com.sa
 hr@globemarine.sa
@@ -2272,7 +1848,6 @@ jobs@sendan.sa
 recruitment@isacc.sa
 hr@ansab.sa
 jobs@alkhorayef.sa
-
 # --- قطاع التجزئة، المبيعات، والفنادق (الشرقية) ---
 careers@cenomi.sa
 hr@alshaya.com
@@ -2294,7 +1869,6 @@ hr@nadec.sa
 recruitment@almarai.com
 jobs@nada.sa
 hr@saudiacatering.sa
-
 # --- قطاع السيارات والنقل (وكالات ومعارض الشرقية) ---
 recruitment@almajdouie.com.sa
 hr@alj.com.sa
@@ -2310,7 +1884,6 @@ hr@yanas.sa
 jobs@aljabr.sa
 recruitment@samaco.sa
 hr@alissa.sa
-
 # --- شركات التقنية، البنوك، والخدمات المالية ---
 hr@stcs.sa
 jobs@solutions.sa
@@ -2327,7 +1900,6 @@ recruitment@medgulf.sa
 hr@malath.sa
 jobs@acig.sa
 recruitment@salama.sa
-
 # --- شركات التشغيل والصيانة (مستشفيات ومجمعات) ---
 hr@sraco.com.sa
 jobs@init.sa
@@ -2339,7 +1911,6 @@ hr@samnan.sa
 jobs@zamil-oms.sa
 recruitment@vaceo.sa
 hr@atco.sa
-
 hr@alkifah.com.sa
 jobs@alkifah.com.sa
 recruitment@alkifah.com.sa
@@ -3129,7 +2700,6 @@ recruitment@sabic.com
 hr@sipchem.com
 jobs@sipchem.com
 recruitment@sipchem.com
-
 hr@satorp.com.sa
 jobs@satorp.com.sa
 recruitment@satorp.com.sa
