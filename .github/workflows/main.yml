@@ -2,14 +2,14 @@ name: Job Search Bot
 
 on:
   schedule:
-    - cron: '0 8 * * *' # يشتغل تلقائياً 8 صباحاً
-  workflow_dispatch: # يتيح لك التشغيل اليدوي الآن للتجربة
+    - cron: '0 5 * * *' # يشتغل 5 فجرًا بتوقيت جرينتش = 8 صباحًا بتوقيت السعودية بالضبط
+  workflow_dispatch: # يتيح لك التشغيل اليدوي في أي وقت للتجربة
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # ضروري للسماح للبوت بحذف الإيميلات من الملف
+      contents: write # ضروري للسماح للبوت بتحديث ملف الإيميلات وحذف المرسل منها
 
     steps:
       - name: Checkout code
@@ -22,7 +22,7 @@ jobs:
 
       - name: Run bot
         env:
-          # الربط بين Secrets و Python (تأكد أن الأسماء تطابق ما وضعته في Settings)
+          # تأكد أن هذه الأسماء مطابقة تماماً لما وضعته في Settings > Secrets
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
         run: python apply.py
@@ -32,5 +32,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
           git add all_emails.txt
-          git commit -m "Update list: Sent 200 emails [skip ci]" || exit 0
+          git commit -m "Update list: Sent emails at 8 AM KSA [skip ci]" || exit 0
           git push
