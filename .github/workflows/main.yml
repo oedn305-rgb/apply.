@@ -1,36 +1,31 @@
-name: Job Search Bot
-
+name: Daily Email Bot
 on:
   schedule:
-    - cron: '0 5 * * *' # يشتغل 5 فجرًا بتوقيت جرينتش = 8 صباحًا بتوقيت السعودية بالضبط
-  workflow_dispatch: # يتيح لك التشغيل اليدوي في أي وقت للتجربة
+    - cron: '0 5 * * *' # تعني الساعة 8 صباحاً بتوقيت السعودية (5 UTC)
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # ضروري للسماح للبوت بتحديث ملف الإيميلات وحذف المرسل منها
-
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v2
+      
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v2
         with:
-          python-version: '3.9'
-
-      - name: Run bot
+          python-version: '3.x'
+          
+      - name: Run Bot
         env:
-          # تأكد أن هذه الأسماء مطابقة تماماً لما وضعته في Settings > Secrets
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
         run: python apply.py
-
-      - name: Commit and push changes
+        
+      - name: Commit changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "action@github.com"
-          git add all_emails.txt
-          git commit -m "Update list: Sent emails at 8 AM KSA [skip ci]" || exit 0
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update email lists after sending" || exit 0
           git push
