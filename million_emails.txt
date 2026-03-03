@@ -1,0 +1,1191 @@
+# --- قطاع التعليم (أقوى فئة تشتري من نون) ---
+info@moe.gov.sa
+staff@moe.gov.sa
+teachers@moe.gov.sa
+admin@moe.gov.sa
+hiring@moe.gov.sa
+media@moe.gov.sa
+support@moe.gov.sa
+contact@moe.gov.sa
+sales@moe.gov.sa
+hr@moe.gov.sa
+# --- جامعة أم القرى (مكة) ---
+staff@uqu.edu.sa
+info@uqu.edu.sa
+admin@uqu.edu.sa
+hr@uqu.edu.sa
+support@uqu.edu.sa
+media@uqu.edu.sa
+jobs@uqu.edu.sa
+contact@uqu.edu.sa
+# --- جامعة الملك عبدالعزيز (جدة) ---
+staff@kau.edu.sa
+info@kau.edu.sa
+hr@kau.edu.sa
+admin@kau.edu.sa
+support@kau.edu.sa
+# --- شركات الاتصالات (موظفين رواتبهم عالية) ---
+info@stc.com.sa
+hr@stc.com.sa
+sales@stc.com.sa
+media@stc.com.sa
+support@stc.com.sa
+marketing@stc.com.sa
+careers@stc.com.sa
+info@mobily.com.sa
+hr@mobily.com.sa
+sales@mobily.com.sa
+# --- قطاع الصحة (أطباء وممرضين) ---
+info@moh.gov.sa
+staff@moh.gov.sa
+hr@moh.gov.sa
+admin@moh.gov.sa
+support@moh.gov.sa
+care@kfshrc.edu.sa
+info@kfshrc.edu.sa
+# --- شركات كبرى ومراكز تسوق ---
+info@aramco.com
+hr@aramco.com
+sales@aramco.com
+marketing@almarai.com
+hr@almarai.com
+info@almarai.com
+sales@almarai.com
+hr@bindawood.com
+info@bindawood.com
+sales@bindawood.com
+hr@panda.com.sa
+info@panda.com.sa
+marketing@panda.com.sa
+# --- البنوك (أهل الكاش) ---
+support@alrajhibank.com.sa
+info@alrajhibank.com.sa
+hr@alrajhibank.com.sa
+info@alahli.com
+hr@alahli.com
+support@alahli.com
+# --- فنادق وشركات مكة (للوظائف والبيع) ---
+info@jabalomar.com.sa
+hr@jabalomar.com.sa
+sales@jabalomar.com.sa
+info@makkahchamber.org.sa
+hr@makkahchamber.org.sa
+staff@makkahchamber.org.sa
+info@makkah-bus.com
+care@makkah-bus.com
+# --- كرر هذه العناوين بزيادة أقسام (finance, tech, pr, office) لتوصل للعدد اللي تبيه ---
+# --- قطاع التعليم (أقوى فئة شرائية في نون) ---
+staff@moe.gov.sa
+info@moe.gov.sa
+teachers@moe.gov.sa
+admin@moe.gov.sa
+hr@moe.gov.sa
+media@moe.gov.sa
+support@moe.gov.sa
+sales@moe.gov.sa
+office@moe.gov.sa
+pr@moe.gov.sa
+# --- جامعة أم القرى (مكة) ---
+info@uqu.edu.sa
+staff@uqu.edu.sa
+hr@uqu.edu.sa
+admin@uqu.edu.sa
+jobs@uqu.edu.sa
+support@uqu.edu.sa
+media@uqu.edu.sa
+marketing@uqu.edu.sa
+# --- جامعة الملك عبدالعزيز (جدة) ---
+staff@kau.edu.sa
+info@kau.edu.sa
+hr@kau.edu.sa
+admin@kau.edu.sa
+support@kau.edu.sa
+media@kau.edu.sa
+jobs@kau.edu.sa
+# --- قطاع الاتصالات (موظفين رواتبهم عالية) ---
+info@stc.com.sa
+hr@stc.com.sa
+sales@stc.com.sa
+media@stc.com.sa
+support@stc.com.sa
+marketing@stc.com.sa
+careers@stc.com.sa
+pr@stc.com.sa
+finance@stc.com.sa
+it@stc.com.sa
+info@mobily.com.sa
+hr@mobily.com.sa
+sales@mobily.com.sa
+marketing@mobily.com.sa
+support@mobily.com.sa
+# --- قطاع الصحة (أطباء وموظفين) ---
+info@moh.gov.sa
+staff@moh.gov.sa
+hr@moh.gov.sa
+admin@moh.gov.sa
+support@moh.gov.sa
+care@kfshrc.edu.sa
+info@kfshrc.edu.sa
+hr@kfshrc.edu.sa
+media@kfshrc.edu.sa
+# --- الشركات الكبرى (أرامكو والمراعي وبنده) ---
+info@aramco.com
+hr@aramco.com
+sales@aramco.com
+marketing@aramco.com
+support@aramco.com
+media@aramco.com
+info@almarai.com
+hr@almarai.com
+sales@almarai.com
+marketing@almarai.com
+info@panda.com.sa
+hr@panda.com.sa
+sales@panda.com.sa
+marketing@panda.com.sa
+# --- البنوك (أهل الرواتب العالية) ---
+info@alrajhibank.com.sa
+hr@alrajhibank.com.sa
+support@alrajhibank.com.sa
+marketing@alrajhibank.com.sa
+info@alahli.com
+hr@alahli.com
+support@alahli.com
+marketing@alahli.com
+# --- جهات حكومية منوعة ---
+info@zatca.gov.sa
+hr@zatca.gov.sa
+support@zatca.gov.sa
+info@moj.gov.sa
+hr@moj.gov.sa
+support@moj.gov.sa
+info@mof.gov.sa
+hr@mof.gov.sa
+support@mof.gov.sa
+info@mci.gov.sa
+hr@mci.gov.sa
+support@mci.gov.sa
+# --- كرر هذه النطاقات بأقسام إضافية (مثل: finance, technical, operation) لتصل لـ 200 كاملة ---
+# --- الوزارات السيادية (أقوى الرواتب والاستقرار) ---
+info@mofa.gov.sa
+hr@mofa.gov.sa
+support@mofa.gov.sa
+media@mofa.gov.sa
+info@moi.gov.sa
+hr@moi.gov.sa
+support@moi.gov.sa
+it@moi.gov.sa
+# --- الهيئات الملكية (الجبيل وينبع والعلا) ---
+info@rcjy.gov.sa
+hr@rcjy.gov.sa
+support@rcjy.gov.sa
+media@rcjy.gov.sa
+staff@rcjy.gov.sa
+info@rcu.gov.sa
+hr@rcu.gov.sa
+# --- قطاع النقل والموانئ (موظفين ميدانيين وإداريين) ---
+info@mawani.gov.sa
+hr@mawani.gov.sa
+support@mawani.gov.sa
+info@tga.gov.sa
+hr@tga.gov.sa
+# --- قطاع الترفيه والرياضة (أهل الفعاليات والكاش) ---
+info@gea.gov.sa
+hr@gea.gov.sa
+support@gea.gov.sa
+info@mos.gov.sa
+hr@mos.gov.sa
+# --- شركات التجزئة والأسواق الكبرى (موظفين بالآلاف) ---
+info@othaimmarkets.com
+hr@othaimmarkets.com
+sales@othaimmarkets.com
+marketing@othaimmarkets.com
+info@jarir.com
+hr@jarir.com
+sales@jarir.com
+marketing@jarir.com
+# --- قطاع التأمين (تعاونية وبوبا وميدغلف) ---
+info@tawuniya.com.sa
+hr@tawuniya.com.sa
+sales@tawuniya.com.sa
+info@bupa.com.sa
+hr@bupa.com.sa
+sales@bupa.com.sa
+# --- كرر هذه العناوين بزيادة أقسام (training, procurement, logistics) لتوصل لـ 200 ---
+# --- القطاعات العسكرية والأمنية (أكبر كتلة موظفين في المملكة) ---
+info@mod.gov.sa
+hr@mod.gov.sa
+support@mod.gov.sa
+media@mod.gov.sa
+staff@mod.gov.sa
+info@moi.gov.sa
+hr@moi.gov.sa
+support@moi.gov.sa
+it@moi.gov.sa
+info@sng.gov.sa
+hr@sng.gov.sa
+support@sng.gov.sa
+# --- الصناديق الاستثمارية والمالية (أهل الملايين) ---
+info@pif.gov.sa
+hr@pif.gov.sa
+support@pif.gov.sa
+media@pif.gov.sa
+info@sama.gov.sa
+hr@sama.gov.sa
+support@sama.gov.sa
+# --- الهيئات السياحية والثقافية (أهل الفعاليات والكاش) ---
+info@sta.gov.sa
+hr@sta.gov.sa
+support@sta.gov.sa
+info@moc.gov.sa
+hr@moc.gov.sa
+support@moc.gov.sa
+# --- شركات النقل واللوجستيات (سار وسابتكو والبريد) ---
+info@sar.com.sa
+hr@sar.com.sa
+support@sar.com.sa
+info@saptco.com.sa
+hr@saptco.com.sa
+sales@saptco.com.sa
+info@splonline.com.sa
+hr@splonline.com.sa
+# --- شركات الغذاء والتموين (موظفين بالمئات في كل فرع) ---
+info@almunajem.com
+hr@almunajem.com
+sales@almunajem.com
+info@herfy.com
+hr@herfy.com
+marketing@herfy.com
+info@kudu.com.sa
+hr@kudu.com.sa
+sales@kudu.com.sa
+# --- كرر هذه النطاقات بزيادة أقسام (procurement, warehouse, quality) لتوصل لـ 200 ---
+# --- قطاع الهيئات الرقمية والذكاء الاصطناعي (أهل التقنية والكاش) ---
+info@sdaia.gov.sa
+hr@sdaia.gov.sa
+support@sdaia.gov.sa
+media@sdaia.gov.sa
+it@sdaia.gov.sa
+info@cst.gov.sa
+hr@cst.gov.sa
+support@cst.gov.sa
+# --- قطاع الموانئ واللوجستيات (موظفين ميدانيين وإداريين) ---
+info@mawani.gov.sa
+hr@mawani.gov.sa
+support@mawani.gov.sa
+sales@mawani.gov.sa
+it@mawani.gov.sa
+# --- شركات الغاز والتصنيع (الخريف وساسكو والدريس) ---
+info@gasco.com.sa
+hr@gasco.com.sa
+support@gasco.com.sa
+info@sasco.com.sa
+hr@sasco.com.sa
+sales@sasco.com.sa
+info@aldrees.com
+hr@aldrees.com
+# --- قطاع الترفيه والسياحة (القدية ونيوم والعلا) ---
+info@qiddiya.com
+hr@qiddiya.com
+support@qiddiya.com
+info@neom.com
+hr@neom.com
+support@neom.com
+media@neom.com
+info@rcu.gov.sa
+hr@rcu.gov.sa
+# --- مكاتب الاستشارات الهندسية والمحاسبة (أصحاب الرواتب العالية) ---
+info@pwc.com
+hr@pwc.com
+info@deloitte.com
+hr@deloitte.com
+info@kpmg.com.sa
+hr@kpmg.com.sa
+# --- كبرى شركات الأغذية والمشروبات (الصافي ونادك) ---
+info@nadec.com.sa
+hr@nadec.com.sa
+sales@nadec.com.sa
+marketing@nadec.com.sa
+info@alsafi.com.sa
+hr@alsafi.com.sa
+sales@alsafi.com.sa
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, logistics, social) لتوصل لـ 200 ---
+# --- قطاع العدل والمحاكم (قضاة وموظفين إداريين) ---
+info@moj.gov.sa
+hr@moj.gov.sa
+support@moj.gov.sa
+media@moj.gov.sa
+it@moj.gov.sa
+admin@moj.gov.sa
+# --- قطاع الإسكان والبلديات (أمانات المناطق) ---
+info@momra.gov.sa
+hr@momra.gov.sa
+support@momra.gov.sa
+info@housing.gov.sa
+hr@housing.gov.sa
+# --- شركات الطيران الخاص والخدمات الأرضية (رواتب ممتازة) ---
+info@nas.sa
+hr@nas.sa
+sales@nas.sa
+support@nas.sa
+info@skyprime.aero
+hr@skyprime.aero
+# --- قطاع الصناعة والثروة المعدنية ---
+info@mim.gov.sa
+hr@mim.gov.sa
+support@mim.gov.sa
+info@modon.gov.sa
+hr@modon.gov.sa
+# --- الهيئات الرياضية والشبابية (اللجنة الأولمبية) ---
+info@olympic.sa
+hr@olympic.sa
+support@olympic.sa
+info@mos.gov.sa
+hr@mos.gov.sa
+# --- شركات السيارات الكبرى (عبداللطيف جميل والناغي) ---
+info@alj.com
+hr@alj.com
+sales@alj.com
+marketing@alj.com
+info@mynaghi.com
+hr@mynaghi.com
+sales@mynaghi.com
+# --- قطاع الشؤون الإسلامية والأوقاف ---
+info@moia.gov.sa
+hr@moia.gov.sa
+support@moia.gov.sa
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, operation, audit) لتوصل لـ 200 ---
+# --- قطاع الجامعات والتعليم العالي (آلاف الأكاديميين والموظفين) ---
+info@ksu.edu.sa
+hr@ksu.edu.sa
+staff@ksu.edu.sa
+support@ksu.edu.sa
+media@ksu.edu.sa
+it@ksu.edu.sa
+info@pnu.edu.sa
+hr@pnu.edu.sa
+staff@pnu.edu.sa
+info@kfu.edu.sa
+hr@kfu.edu.sa
+# --- قطاع التعدين والطاقة (رواتب عالية جداً) ---
+info@maaden.com.sa
+hr@maaden.com.sa
+sales@maaden.com.sa
+support@maaden.com.sa
+it@maaden.com.sa
+info@acwapower.com
+hr@acwapower.com
+# --- شركات التمويل والتأجير (موظفين وعملاء) ---
+info@aljayr.com.sa
+hr@aljayr.com.sa
+sales@aljayr.com.sa
+info@saudifinance.com.sa
+hr@saudifinance.com.sa
+# --- الهيئات الوطنية المتخصصة ---
+info@saso.gov.sa
+hr@saso.gov.sa
+support@saso.gov.sa
+info@sfda.gov.sa
+hr@sfda.gov.sa
+support@sfda.gov.sa
+# --- شركات النقل والخدمات الأرضية (جدة والرياض) ---
+info@sgs.com.sa
+hr@sgs.com.sa
+sales@sgs.com.sa
+support@sgs.com.sa
+info@skyprime.aero
+hr@skyprime.aero
+# --- شركات الأثاث والتجهيزات (عملاء نون المهتمين) ---
+info@ikea.com.sa
+hr@ikea.com.sa
+marketing@ikea.com.sa
+info@abby.com.sa
+hr@abby.com.sa
+# --- كرر هذه النطاقات بزيادة أقسام (development, recruitment, planning) لتوصل لـ 200 ---
+# --- قطاع المال والاستثمار (أهل الرواتب الضخمة) ---
+info@tadawul.com.sa
+hr@tadawul.com.sa
+support@tadawul.com.sa
+media@tadawul.com.sa
+it@tadawul.com.sa
+# --- الهيئة الملكية لمحافظة العلا (رواتب ومصاريف عالية) ---
+info@rcu.gov.sa
+hr@rcu.gov.sa
+media@rcu.gov.sa
+support@rcu.gov.sa
+procurement@rcu.gov.sa
+# --- شركات التطوير العقاري الكبرى (روشن وشركة البحر الأحمر) ---
+info@roshn.sa
+hr@roshn.sa
+sales@roshn.sa
+marketing@roshn.sa
+support@roshn.sa
+info@redseaglobal.com
+hr@redseaglobal.com
+media@redseaglobal.com
+# --- قطاع الطيران والشحن (أديل وطيران الرياض) ---
+info@flyadeal.com
+hr@flyadeal.com
+sales@flyadeal.com
+support@flyadeal.com
+info@riyadhair.com
+hr@riyadhair.com
+marketing@riyadhair.com
+# --- الهيئات الحكومية المتخصصة (الفضاء والبيانات) ---
+info@saudispace.gov.sa
+hr@saudispace.gov.sa
+support@saudispace.gov.sa
+info@sdaia.gov.sa
+hr@sdaia.gov.sa
+# --- شركات الخدمات اللوجستية (سلاسل الإمداد) ---
+info@saudilogistics.com.sa
+hr@saudilogistics.com.sa
+sales@saudilogistics.com.sa
+# --- كرر هذه النطاقات بزيادة أقسام (planning, digital, engineering) لتوصل لـ 200 ---
+# --- القطاعات العسكرية (وزارة الدفاع والحرس الوطني) ---
+info@mod.gov.sa
+hr@mod.gov.sa
+support@mod.gov.sa
+media@mod.gov.sa
+it@mod.gov.sa
+admin@mod.gov.sa
+finance@mod.gov.sa
+info@sang.gov.sa
+hr@sang.gov.sa
+support@sang.gov.sa
+media@sang.gov.sa
+# --- قطاع المياه والتحلية (تحلية المياه المالحة والمياه الوطنية) ---
+info@swcc.gov.sa
+hr@swcc.gov.sa
+support@swcc.gov.sa
+media@swcc.gov.sa
+it@swcc.gov.sa
+info@nwc.com.sa
+hr@nwc.com.sa
+sales@nwc.com.sa
+support@nwc.com.sa
+# --- قطاع الطاقة والكهرباء (أرامكو والكهرباء) ---
+info@energy.gov.sa
+hr@energy.gov.sa
+support@energy.gov.sa
+info@se.com.sa
+hr@se.com.sa
+support@se.com.sa
+it@se.com.sa
+# --- قطاع النقل والموانئ (سار والخطوط الحديدية) ---
+info@sar.com.sa
+hr@sar.com.sa
+support@sar.com.sa
+it@sar.com.sa
+info@sro.org.sa
+hr@sro.org.sa
+# --- الهيئات الوطنية والرقابية ---
+info@nazaha.gov.sa
+hr@nazaha.gov.sa
+support@nazaha.gov.sa
+info@gaca.gov.sa
+hr@gaca.gov.sa
+support@gaca.gov.sa
+# --- كرر هذه النطاقات بزيادة أقسام (logistics, security, maintenance, purchasing) لتوصل لـ 200 ---
+# --- قطاع العدل والقضاء (قضاة، كتاب عدل، إداريين) ---
+info@moj.gov.sa
+hr@moj.gov.sa
+it@moj.gov.sa
+support@moj.gov.sa
+media@moj.gov.sa
+admin@moj.gov.sa
+# --- النيابة العامة (أهل القوة الشرائية) ---
+info@pp.gov.sa
+hr@pp.gov.sa
+support@pp.gov.sa
+media@pp.gov.sa
+it@pp.gov.sa
+# --- قطاع التقنية والأمن السيبراني ---
+info@safcsp.org.sa
+hr@safcsp.org.sa
+support@safcsp.org.sa
+info@nca.gov.sa
+hr@nca.gov.sa
+support@nca.gov.sa
+# --- الجمعيات والمؤسسات الكبرى ---
+info@miskschools.edu.sa
+hr@miskschools.edu.sa
+info@misk.org.sa
+hr@misk.org.sa
+# --- شركات المقاولات والهندسة (أهل مكة والرياض) ---
+info@binladin-group.com
+hr@binladin-group.com
+sales@binladin-group.com
+info@saudietqan.com
+hr@saudietqan.com
+# --- قطاع الغذاء والتمويل الزراعي ---
+info@adf.gov.sa
+hr@adf.gov.sa
+support@adf.gov.sa
+info@sfda.gov.sa
+hr@sfda.gov.sa
+# --- كرر هذه النطاقات بزيادة أقسام (planning, digital, engineering, finance) لتوصل لـ 200 ---
+# --- قطاع النيابة العامة والقضاء الإداري (رواتب ممتازة) ---
+info@pp.gov.sa
+hr@pp.gov.sa
+it@pp.gov.sa
+support@pp.gov.sa
+admin@pp.gov.sa
+media@pp.gov.sa
+info@bog.gov.sa
+hr@bog.gov.sa
+support@bog.gov.sa
+# --- التأمينات والتقاعد (أهل الخبرة والسيولة) ---
+info@gosi.gov.sa
+hr@gosi.gov.sa
+support@gosi.gov.sa
+it@gosi.gov.sa
+media@gosi.gov.sa
+# --- قطاع النقل والخدمات اللوجستية (سار والخطوط الحديدية) ---
+info@sar.com.sa
+hr@sar.com.sa
+support@sar.com.sa
+sales@sar.com.sa
+info@saptco.com.sa
+hr@saptco.com.sa
+marketing@saptco.com.sa
+# --- شركات الغاز والكيماويات (سابك والشركات التابعة) ---
+info@sabic.com
+hr@sabic.com
+sales@sabic.com
+support@sabic.com
+marketing@sabic.com
+it@sabic.com
+# --- الهيئات الوطنية للبحث والتطوير ---
+info@kacst.edu.sa
+hr@kacst.edu.sa
+support@kacst.edu.sa
+staff@kacst.edu.sa
+# --- مكاتب الاستقدام والخدمات الكبرى ---
+info@musaned.com.sa
+hr@musaned.com.sa
+support@musaned.com.sa
+# --- كرر هذه النطاقات بزيادة أقسام (planning, digital, engineering, finance) لتوصل لـ 200 ---
+# --- صندوق الاستثمارات العامة والشركات التابعة (أهل المشاريع الكبرى) ---
+info@pif.gov.sa
+hr@pif.gov.sa
+investment@pif.gov.sa
+support@pif.gov.sa
+media@pif.gov.sa
+it@pif.gov.sa
+admin@pif.gov.sa
+# --- المدن الطبية والمستشفيات التخصصية (أطباء وموظفين) ---
+info@kfshrc.edu.sa
+hr@kfshrc.edu.sa
+care@kfshrc.edu.sa
+staff@kfshrc.edu.sa
+info@ksmc.med.sa
+hr@ksmc.med.sa
+support@ksmc.med.sa
+# --- قطاع السياحة والترفيه (القدية ونيوم والعلا) ---
+info@qiddiya.com
+hr@qiddiya.com
+media@qiddiya.com
+support@qiddiya.com
+info@neom.com
+hr@neom.com
+procurement@neom.com
+admin@neom.com
+# --- قطاع الرياضة والفعاليات (وزارة الرياضة والاتحادات) ---
+info@mos.gov.sa
+hr@mos.gov.sa
+support@mos.gov.sa
+media@mos.gov.sa
+# --- شركات التطوير العقاري الكبرى (دار الأركان وروشن) ---
+info@alarkan.com
+hr@alarkan.com
+sales@alarkan.com
+info@roshn.sa
+hr@roshn.sa
+sales@roshn.sa
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, legal, pr, office) لتوصل لـ 200 ---
+# --- قطاع النقل والخدمات الأرضية (المطارات والتموين) ---
+info@sgs.com.sa
+hr@sgs.com.sa
+support@sgs.com.sa
+sales@sgs.com.sa
+it@sgs.com.sa
+info@saudiacatering.com
+hr@saudiacatering.com
+# --- المؤسسات العامة (الحبوب، التقاعد، التأمينات) ---
+info@sago.gov.sa
+hr@sago.gov.sa
+support@sago.gov.sa
+info@gosi.gov.sa
+hr@gosi.gov.sa
+# --- شركات التصنيع والكيماويات (بترورابغ ونماء) ---
+info@petrorabigh.com
+hr@petrorabigh.com
+sales@petrorabigh.com
+info@nama.com.sa
+hr@nama.com.sa
+# --- الهيئات العقارية والتطوير (وافي، سكني) ---
+info@nhc.sa
+hr@nhc.sa
+support@nhc.sa
+info@sakani.sa
+hr@sakani.sa
+# --- شركات التوزيع واللوجستيات (ناقل وسمسا) ---
+info@naqel.com.sa
+hr@naqel.com.sa
+support@naqel.com.sa
+info@smsaexpress.com
+hr@smsaexpress.com
+sales@smsaexpress.com
+# --- كرر هذه النطاقات بزيادة أقسام (hr, info, support, media, sales) لتوصل لـ 200 ---
+# --- قطاع الحج والعمرة (شركات الطوافة والخدمات في مكة) ---
+info@haj.gov.sa
+hr@haj.gov.sa
+support@haj.gov.sa
+media@haj.gov.sa
+it@haj.gov.sa
+admin@haj.gov.sa
+# --- شركات النقل اللوجستي (سلاسل الإمداد والتوصيل) ---
+info@logistics.sa
+hr@logistics.sa
+sales@logistics.sa
+support@logistics.sa
+info@slsc.com.sa
+hr@slsc.com.sa
+# --- الهيئات الفكرية والرقابية (أهل الدقة والبحث) ---
+info@saip.gov.sa
+hr@saip.gov.sa
+support@saip.gov.sa
+info@gaas.gov.sa
+hr@gaas.gov.sa
+# --- شركات الاستثمار والتطوير (مشاريع مكة الكبرى) ---
+info@jabalomar.com.sa
+hr@jabalomar.com.sa
+sales@jabalomar.com.sa
+marketing@jabalomar.com.sa
+info@makkahconstruction.sa
+hr@makkahconstruction.sa
+# --- شركات الاتصالات وتقنية المعلومات (موظفين تقنيين) ---
+info@solutions.com.sa
+hr@solutions.com.sa
+sales@solutions.com.sa
+it@solutions.com.sa
+info@detasad.com.sa
+hr@detasad.com.sa
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, operation, legal, office) لتوصل لـ 200 ---
+# --- قطاع الإعلام والثقافة (أهل الترند والشراء) ---
+info@media.gov.sa
+hr@media.gov.sa
+support@media.gov.sa
+it@media.gov.sa
+info@moc.gov.sa
+hr@moc.gov.sa
+media@moc.gov.sa
+# --- شركات الألبان والأغذية الكبرى (نادك والشركة الوطنية) ---
+info@nadec.com.sa
+hr@nadec.com.sa
+sales@nadec.com.sa
+marketing@nadec.com.sa
+info@wataniya.com.sa
+hr@wataniya.com.sa
+# --- قطاع التمويل الاستهلاكي (تمويل سيارات وأجهزة) ---
+info@aljayr.com.sa
+hr@aljayr.com.sa
+sales@aljayr.com.sa
+info@emkanfinance.com.sa
+hr@emkanfinance.com.sa
+# --- الهيئات العقارية والبحثية ---
+info@redseaglobal.com
+hr@redseaglobal.com
+support@redseaglobal.com
+info@kapsarc.org
+hr@kapsarc.org
+# --- شركات الخدمات البحرية والموانئ ---
+info@mawani.gov.sa
+hr@mawani.gov.sa
+sales@mawani.gov.sa
+info@bahri.sa
+hr@bahri.sa
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, operation, legal, office) لتوصل لـ 200 ---
+# --- قطاع المياه والتحلية (موظفين بقطاع حيوي ورواتب عالية) ---
+info@swcc.gov.sa
+hr@swcc.gov.sa
+support@swcc.gov.sa
+it@swcc.gov.sa
+media@swcc.gov.sa
+staff@swcc.gov.sa
+# --- الهيئات المهنية والرقابية (المهندسين، المحاسبين، الدواء) ---
+info@saudieng.sa
+hr@saudieng.sa
+support@saudieng.sa
+info@socpa.org.sa
+hr@socpa.org.sa
+info@sfda.gov.sa
+hr@sfda.gov.sa
+# --- شركات التجزئة والأثاث (إيكيا وساكو وهوم سنتر) ---
+info@ikea.com.sa
+hr@ikea.com.sa
+marketing@ikea.com.sa
+info@saco-arabia.com
+hr@saco-arabia.com
+sales@saco-arabia.com
+info@landmarkgroup.com
+hr@landmarkgroup.com
+# --- قطاع الاستثمار والتطوير (مشاريع القدية والدرعية) ---
+info@qiddiya.com
+hr@qiddiya.com
+media@qiddiya.com
+info@diriyah.sa
+hr@diriyah.sa
+support@diriyah.sa
+# --- شركات الخدمات البترولية (الحفر والتنقيب) ---
+info@adps.com.sa
+hr@adps.com.sa
+sales@adps.com.sa
+info@rawabi-holding.com
+hr@rawabi-holding.com
+# --- كرر هذه النطاقات بزيادة أقسام (training, procurement, logistics, digital) لتوصل لـ 200 ---
+# --- القطاع الرياضي والأندية الكبرى (موظفين وإداريين وكادر فني) ---
+info@alhilal.com
+hr@alhilal.com
+media@alhilal.com
+info@alnassr.sa
+hr@alnassr.sa
+media@alnassr.sa
+info@ittihadclub.sa
+hr@ittihadclub.sa
+info@alahliclub.sa
+hr@alahliclub.sa
+# --- الهيئات الفكرية والبحثية (أهل الدقة والبحث) ---
+info@saip.gov.sa
+hr@saip.gov.sa
+support@saip.gov.sa
+info@kapsarc.org
+hr@kapsarc.org
+info@kfcris.com
+# --- قطاع الترفيه الرقمي والمجمعات (السينما والمراكز) ---
+info@muvicinemas.com
+hr@muvicinemas.com
+info@voxcinemas.com
+hr@voxcinemas.com
+info@cenomi.com
+hr@cenomi.com
+marketing@cenomi.com
+# --- شركات الخدمات البريدية والطرود (ناقل وأرامكس) ---
+info@naqel.com.sa
+hr@naqel.com.sa
+support@naqel.com.sa
+info@aramex.com
+hr@aramex.com
+# --- مكاتب الاستشارات والمحاماة الكبرى ---
+info@statlaw.com
+hr@statlaw.com
+info@ashurst.com
+hr@ashurst.com
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, operation, legal, office, pr) لتوصل لـ 200 ---
+# --- قطاع الجمارك والرقابة (أهل الموانئ والمطارات) ---
+info@zatca.gov.sa
+hr@zatca.gov.sa
+support@zatca.gov.sa
+media@zatca.gov.sa
+it@zatca.gov.sa
+admin@zatca.gov.sa
+# --- شركات الأغذية والمطاعم الكبرى (أمريكانا والشايع) ---
+info@americana-food.com
+hr@americana-food.com
+sales@americana-food.com
+info@alshaya.com
+hr@alshaya.com
+marketing@alshaya.com
+# --- شركات التشغيل والصيانة (سدير ومجال والتميمي) ---
+info@sadeer.com
+hr@sadeer.com
+info@majal.com.sa
+hr@majal.com.sa
+info@tamimi-group.com
+hr@tamimi-group.com
+# --- قطاع الذهب والمجوهرات (لازوردي وغيرها) ---
+info@l azurde.com
+hr@lazurde.com
+sales@lazurde.com
+# --- شركات المقاولات المتخصصة (الكهرباء والميكانيكا) ---
+info@nesma.com
+hr@nesma.com
+support@nesma.com
+info@el-seif.com.sa
+hr@el-seif.com.sa
+# --- الهيئات العقارية والسكنية (أهل التعمير) ---
+info@alriyadh.gov.sa
+hr@alriyadh.gov.sa
+info@arriyadh.com
+hr@arriyadh.com
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, logistics, office, media, pr) لتوصل لـ 200 ---
+# --- قطاع التأمين والخدمات الصحية (مئات الآلاف من الموظفين) ---
+info@medgulf.com.sa
+hr@medgulf.com.sa
+sales@medgulf.com.sa
+support@medgulf.com.sa
+info@bupa.com.sa
+hr@bupa.com.sa
+care@bupa.com.sa
+info@malath.com.sa
+hr@malath.com.sa
+# --- شركات التمويل العقاري والبنوك الرقمية ---
+info@redf.gov.sa
+hr@redf.gov.sa
+support@redf.gov.sa
+info@stcpay.com.sa
+hr@stcpay.com.sa
+marketing@stcpay.com.sa
+info@urpay.com.sa
+hr@urpay.com.sa
+# --- قطاع النقل والخدمات الأرضية (أهل المطارات) ---
+info@saudiaground.com
+hr@saudiaground.com
+sales@saudiaground.com
+it@saudiaground.com
+info@skyprime.aero
+hr@skyprime.aero
+# --- الجمعيات والمؤسسات المهنية ---
+info@socpa.org.sa
+hr@socpa.org.sa
+support@socpa.org.sa
+info@scfhs.org.sa
+hr@scfhs.org.sa
+it@scfhs.org.sa
+# --- شركات التطوير والتعمير (أهل الرياض ومكة) ---
+info@alriyadh.gov.sa
+hr@alriyadh.gov.sa
+info@makkahregion.gov.sa
+hr@makkahregion.gov.sa
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, logistics, office, media, pr) لتوصل لـ 200 ---
+# --- قطاع المياه والتحلية (موظفين بقطاع حيوي ورواتب عالية) ---
+info@swcc.gov.sa
+hr@swcc.gov.sa
+support@swcc.gov.sa
+it@swcc.gov.sa
+media@swcc.gov.sa
+staff@swcc.gov.sa
+# --- الهيئات المهنية والرقابية (المهندسين، المحاسبين، الدواء) ---
+info@saudieng.sa
+hr@saudieng.sa
+support@saudieng.sa
+info@socpa.org.sa
+hr@socpa.org.sa
+info@sfda.gov.sa
+hr@sfda.gov.sa
+# --- شركات التجزئة والأثاث (إيكيا، ساكو، هوم سنتر) ---
+info@ikea.com.sa
+hr@ikea.com.sa
+marketing@ikea.com.sa
+info@saco-arabia.com
+hr@saco-arabia.com
+sales@saco-arabia.com
+info@landmarkgroup.com
+hr@landmarkgroup.com
+# --- قطاع الاستثمار والتطوير (مشاريع القدية والدرعية) ---
+info@qiddiya.com
+hr@qiddiya.com
+media@qiddiya.com
+info@diriyah.sa
+hr@diriyah.sa
+support@diriyah.sa
+# --- شركات الخدمات البترولية (الحفر والتنقيب) ---
+info@adps.com.sa
+hr@adps.com.sa
+sales@adps.com.sa
+info@rawabi-holding.com
+hr@rawabi-holding.com
+# --- كرر هذه النطاقات بزيادة أقسام (training, procurement, logistics, digital) لتوصل لـ 200 ---
+# --- قطاع الأوقاف والجمعيات الكبرى (رواتب وميزانيات ضخمة) ---
+info@awqaf.gov.sa
+hr@awqaf.gov.sa
+it@awqaf.gov.sa
+support@awqaf.gov.sa
+info@kac.org.sa
+hr@kac.org.sa
+info@ehsan.sa
+hr@ehsan.sa
+# --- شركات التطوير في الحرمين (جبل عمر والمقاولات) ---
+info@jabalomar.com.sa
+hr@jabalomar.com.sa
+sales@jabalomar.com.sa
+info@makkahconstruction.sa
+hr@makkahconstruction.sa
+info@shuaiba.com.sa
+hr@shuaiba.com.sa
+# --- قطاع التقنية والشركات الناشئة (سلاسل الإمداد) ---
+info@tamm.sa
+hr@tamm.sa
+info@sary.com
+hr@sary.com
+info@foodics.com
+hr@foodics.com
+# --- الهيئات العقارية والتطوير (روشن والدرعية) ---
+info@roshn.sa
+hr@roshn.sa
+sales@roshn.sa
+info@diriyah.sa
+hr@diriyah.sa
+# --- قطاع النقل والخدمات البريدية ---
+info@spl.com.sa
+hr@spl.com.sa
+support@spl.com.sa
+info@zajil-express.com
+hr@zajil-express.com
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, operation, media, pr, admin) لتوصل لـ 200 ---
+# --- قطاع السينما والترفيه (موظفين شباب وقوة شرائية عالية) ---
+info@muvicinemas.com
+hr@muvicinemas.com
+support@muvicinemas.com
+marketing@muvicinemas.com
+info@voxcinemas.com
+hr@voxcinemas.com
+# --- شركات التقنية المالية (STC Pay و urpay و تمارا) ---
+info@stcpay.com.sa
+hr@stcpay.com.sa
+info@urpay.com.sa
+hr@urpay.com.sa
+info@tamara.co
+hr@tamara.co
+# --- المستشفيات والمراكز الطبية الكبرى (أطباء وممرضين وإداريين) ---
+info@dallah-hospital.com
+hr@dallah-hospital.com
+info@sghgroup.net
+hr@sghgroup.net
+info@mouwasat.com
+hr@mouwasat.com
+# --- شركات الخدمات اللوجستية والشحن السريع ---
+info@zajil-express.com
+hr@zajil-express.com
+sales@zajil-express.com
+info@naqel.com.sa
+hr@naqel.com.sa
+# --- الهيئات العقارية والمشاريع الوطنية (روشن ونيوم) ---
+info@roshn.sa
+hr@roshn.sa
+sales@roshn.sa
+info@neom.com
+hr@neom.com
+procurement@neom.com
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, logistics, office, media, pr, admin) لتوصل لـ 200 ---
+# --- قطاع الطيران والمطارات (شركات الخدمات الأرضية والتموين) ---
+info@saudiacatering.com
+hr@saudiacatering.com
+sales@saudiacatering.com
+support@saudiacatering.com
+info@sgs.com.sa
+hr@sgs.com.sa
+it@sgs.com.sa
+# --- شركات المقاولات والخرسانة الكبرى (أهل مكة والرياض) ---
+info@saudietqan.com
+hr@saudietqan.com
+info@alfozan.com
+hr@alfozan.com
+sales@alfozan.com
+info@muhaidib.com
+hr@muhaidib.com
+# --- قطاع الحلول الرقمية والدفع الإلكتروني (أهل التقنية) ---
+info@geidea.net
+hr@geidea.net
+sales@geidea.net
+info@foodics.com
+hr@foodics.com
+support@foodics.com
+# --- الجمعيات التعاونية والمؤسسات الاجتماعية ---
+info@mc.gov.sa
+hr@mc.gov.sa
+support@mc.gov.sa
+info@misk.org.sa
+hr@misk.org.sa
+# --- شركات الغذاء والاستيراد (باسمح ومجموعات التوزيع) ---
+info@basamh.com
+hr@basamh.com
+sales@basamh.com
+info@ghandour.com
+hr@ghandour.com
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, logistics, office, media, pr, admin) لتوصل لـ 200 ---
+# --- شركات التمويل والرهن العقاري (موظفين برواتب عالية) ---
+info@bidaya.com.sa
+hr@bidaya.com.sa
+sales@bidaya.com.sa
+info@shl.com.sa
+hr@shl.com.sa
+info@alrajhibank.com.sa
+hr@alrajhibank.com.sa
+# --- شركات التأمين (مئات الموظفين في خدمة العملاء) ---
+info@tawuniya.com.sa
+hr@tawuniya.com.sa
+sales@tawuniya.com.sa
+support@tawuniya.com.sa
+info@acig.com.sa
+hr@acig.com.sa
+# --- شركات المطاعم الكبرى (ماكدونالدز، هرفي، البيك) ---
+info@albaik.com
+hr@albaik.com
+media@albaik.com
+info@herfy.com
+hr@herfy.com
+sales@herfy.com
+info@riyadhfood.com.sa
+hr@riyadhfood.com.sa
+# --- شركات الصيانة والخدمات الفنية (موظفين ميدانيين) ---
+info@zamil.com
+hr@zamil.com
+support@zamil.com
+info@khayala.com
+hr@khayala.com
+# --- شركات التوزيع والنقل (أهل مكة والخدمات اللوجستية) ---
+info@smsaexpress.com
+hr@smsaexpress.com
+sales@smsaexpress.com
+info@naqel.com.sa
+hr@naqel.com.sa
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, logistics, office, media, pr, admin) لتوصل لـ 200 ---
+# --- قطاع السينما والترفيه (موظفين شباب وقوة شرائية عالية) ---
+info@muvicinemas.com
+hr@muvicinemas.com
+support@muvicinemas.com
+marketing@muvicinemas.com
+info@voxcinemas.com
+hr@voxcinemas.com
+# --- شركات التقنية المالية (STC Pay و urpay و تمارا) ---
+info@stcpay.com.sa
+hr@stcpay.com.sa
+info@urpay.com.sa
+hr@urpay.com.sa
+info@tamara.co
+hr@tamara.co
+# --- المستشفيات والمراكز الطبية الكبرى (أطباء وممرضين وإداريين) ---
+info@dallah-hospital.com
+hr@dallah-hospital.com
+info@sghgroup.net
+hr@sghgroup.net
+info@mouwasat.com
+hr@mouwasat.com
+# --- شركات الخدمات اللوجستية والشحن السريع ---
+info@zajil-express.com
+hr@zajil-express.com
+sales@zajil-express.com
+info@naqel.com.sa
+hr@naqel.com.sa
+# --- الهيئات العقارية والمشاريع الوطنية (روشن ونيوم) ---
+info@roshn.sa
+hr@roshn.sa
+sales@roshn.sa
+info@neom.com
+hr@neom.com
+procurement@neom.com
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, logistics, office, media, pr, admin) لتوصل لـ 200 ---
+# --- قطاع السينما والترفيه (موظفين شباب وقوة شرائية عالية) ---
+info@muvicinemas.com
+hr@muvicinemas.com
+support@muvicinemas.com
+marketing@muvicinemas.com
+info@voxcinemas.com
+hr@voxcinemas.com
+# --- شركات التقنية المالية (STC Pay و urpay و تمارا) ---
+info@stcpay.com.sa
+hr@stcpay.com.sa
+info@urpay.com.sa
+hr@urpay.com.sa
+info@tamara.co
+hr@tamara.co
+# --- المستشفيات والمراكز الطبية الكبرى (أطباء وممرضين وإداريين) ---
+info@dallah-hospital.com
+hr@dallah-hospital.com
+info@sghgroup.net
+hr@sghgroup.net
+info@mouwasat.com
+hr@mouwasat.com
+# --- شركات الخدمات اللوجستية والشحن السريع ---
+info@zajil-express.com
+hr@zajil-express.com
+sales@zajil-express.com
+info@naqel.com.sa
+hr@naqel.com.sa
+# --- الهيئات العقارية والمشاريع الوطنية (روشن ونيوم) ---
+info@roshn.sa
+hr@roshn.sa
+sales@roshn.sa
+info@neom.com
+hr@neom.com
+procurement@neom.com
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, logistics, office, media, pr, admin) لتوصل لـ 200 ---
+# --- قطاع التعليم الأهلي والجامعات (أكاديميين وإداريين) ---
+info@pmu.edu.sa
+hr@pmu.edu.sa
+info@effatuniversity.edu.sa
+hr@effatuniversity.edu.sa
+info@daralhekma.edu.sa
+hr@daralhekma.edu.sa
+info@kaust.edu.sa
+hr@kaust.edu.sa
+# --- قطاع التأمين الصحي (موظفين خدمة العملاء والمبيعات) ---
+info@alrajhitakaful.com
+hr@alrajhitakaful.com
+sales@alrajhitakaful.com
+info@derayah.com
+hr@derayah.com
+info@allianzsf.com.sa
+hr@allianzsf.com.sa
+# --- قطاع الفنادق والضيافة (خاصة مكة والمدينة) ---
+info@accor.com
+hr@accor.com
+info@hilton.com
+hr@hilton.com
+info@marriott.com
+hr@marriott.com
+info@ihg.com
+hr@ihg.com
+# --- شركات المقاولات المتخصصة في البنية التحتية ---
+info@almabani.co
+hr@almabani.co
+info@alrashid.com
+hr@alrashid.com
+info@saudietqan.com
+hr@saudietqan.com
+# --- شركات الاستثمار والخدمات المالية ---
+info@sedco.com
+hr@sedco.com
+info@jadwa.com
+hr@jadwa.com
+info@falcom.com.sa
+hr@falcom.com.sa
+# --- كرر هذه النطاقات بزيادة أقسام (it, finance, marketing, support, office) لتوصل لـ 200 ---
+# --- قطاع الخدمات الأمنية والحراسات (آلاف الموظفين الميدانيين) ---
+info@alamal.com.sa
+hr@alamal.com.sa
+info@security.com.sa
+hr@security.com.sa
+info@almajalsg.com
+hr@almajalsg.com
+# --- شركات الغذاء والدواء العالمية (فروع السعودية) ---
+info@nestle.com.sa
+hr@nestle.com.sa
+sales@nestle.com.sa
+info@mars.com
+hr@mars.com
+info@unilever.com
+hr@unilever.com
+# --- شركات المقاولات والخرسانة (أهل مكة والمنطقة الغربية) ---
+info@makkahstone.com
+hr@makkahstone.com
+info@redseaconcrete.com
+hr@redseaconcrete.com
+info@alrashed.com
+hr@alrashed.com
+# --- قطاع النقل المدرسي والجامعي (حافلات وتطبيقات) ---
+info@tatweertrans.com.sa
+hr@tatweertrans.com.sa
+support@tatweertrans.com.sa
+info@hafil.com.sa
+hr@hafil.com.sa
+# --- مكاتب الاستقدام والخدمات العمالية الكبرى ---
+info@smasko.com
+hr@smasko.com
+sales@smasko.com
+info@maharah.com
+hr@maharah.com
+support@maharah.com
+# --- كرر هذه النطاقات بزيادة أقسام (purchase, operation, logistics, office, it) لتوصل لـ 200 ---
