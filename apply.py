@@ -10,7 +10,7 @@ from email import encoders
 # --- جلب الإعدادات من Secrets ---
 EMAIL_USER = os.getenv('MY_EMAIL')
 EMAIL_PASS = os.getenv('EMAIL_PASS')
-MY_NAME = "اكتب اسمك هنا" 
+MY_NAME = "مشعل المطيري" # تم تحديث الاسم
 
 # إعدادات الملفات
 CV_FILE_PATH = "cv.pdf.pdf" 
@@ -31,6 +31,7 @@ def run_job_search_bot():
         print("❌ خطأ: لم يتم العثور على EMAIL_PASS أو MY_EMAIL في Secrets!")
         return
 
+    # التأكد من وجود ملف الإيميلات والسيرة الذاتية
     if not os.path.exists(FILE_NAME) or not os.path.exists(CV_FILE_PATH):
         print(f"❌ خطأ: تأكد من وجود {FILE_NAME} و {CV_FILE_PATH}")
         return
@@ -42,41 +43,56 @@ def run_job_search_bot():
         print("🎉 القائمة فارغة! تم إرسال كافة الإيميلات.")
         return
 
+    # إرسال 200 إيميل في المرة الواحدة لمنع حظر الحساب
     to_send = emails[:200]
-    remaining = emails[200:]
+    
+    print(f"🚀 انطلاق.. محاولة إرسال {len(to_send)} إيميل لشركات مكة...")
 
-    print(f"🚀 انطلاق.. محاولة إرسال {len(to_send)} إيميل...")
-
-    # فتح أول اتصال
     server = get_mail_server()
     if not server: return
 
     sent_count = 0
+    index = 0
     try:
         for index, email in enumerate(to_send, 1):
-            # محاولة الإرسال مع نظام إعادة الاتصال التلقائي
             retry_limit = 2
             while retry_limit > 0:
                 try:
                     msg = MIMEMultipart()
                     msg['From'] = f"{MY_NAME} <{EMAIL_USER}>"
                     msg['To'] = email
-                    msg['Subject'] = f"Job Application - {MY_NAME}"
+                    # عنوان الرسالة جذاب لشركات مكة
+                    msg['Subject'] = f"طلب توظيف موسم رمضان (ثانوي) - {MY_NAME}"
 
-                    body = f"""Dear Recruitment Team,\n\nI am writing to express my strong interest in joining your esteemed organization.\n\nBest regards,\n{MY_NAME}"""
+                    # نص الرسالة المخصص لوظائف مكة
+                    body = f"""السلام عليكم ورحمة الله وبركاته،
+
+أنا {MY_NAME}، حاصل على شهادة الثانوية العامة، وأرغب في التقدم للعمل لديكم في موسم رمضان المبارك بمكة المكرمة.
+
+أبحث عن فرصة عمل ميدانية تشمل:
+- توفير سكن وإعاشة.
+- أو العمل بنظام الأجر اليومي.
+
+مرفق لكم سيرتي الذاتية، وأنا متاح للمباشرة فوراً وجاهز لخدمة ضيوف الرحمن بكل جدية ونشاط.
+
+للتواصل: 0552145971
+تحياتي،
+{MY_NAME}"""
+                    
                     msg.attach(MIMEText(body, 'plain', 'utf-8'))
 
+                    # إرفاق السيرة الذاتية
                     with open(CV_FILE_PATH, "rb") as attachment:
                         part = MIMEBase("application", "octet-stream")
                         part.set_payload(attachment.read())
                         encoders.encode_base64(part)
-                        part.add_header("Content-Disposition", f"attachment; filename=Professional_CV.pdf")
+                        part.add_header("Content-Disposition", f"attachment; filename=Mishal_AlMutairi_CV.pdf")
                         msg.attach(part)
 
                     server.send_message(msg)
-                    print(f"✅ [{index}/200] تم الإرسال بنجاح إلى: {email}")
+                    print(f"✅ [{index}/{len(to_send)}] تم الإرسال بنجاح إلى: {email}")
                     sent_count += 1
-                    break # اخرج من حلقة الـ retry لو نجح الإرسال
+                    break 
                 
                 except (smtplib.SMTPServerDisconnected, smtplib.SMTPException):
                     print("🔄 انقطع الاتصال.. جاري إعادة الاتصال بالسيرفر...")
@@ -87,7 +103,7 @@ def run_job_search_bot():
                     print(f"⚠️ فشل مع {email}: {e}")
                     break
 
-            # انتظار عشوائي لمنع الحظر (بين 25 و 45 ثانية كما طلبت)
+            # الانتظار العشوائي (بين 25 و 45 ثانية) لحماية إيميلك من الحظر
             time.sleep(random.randint(25, 45))
 
     finally:
@@ -95,15 +111,13 @@ def run_job_search_bot():
             try: server.quit()
             except: pass
 
-        # تحديث القائمة (حذف الإيميلات التي تمت محاولة إرسالها فقط)
-        # لضمان عدم ضياع الإيميلات لو توقف البوت فجأة
+        # تحديث ملف all_emails.txt وحذف من تم الإرسال لهم
         with open(FILE_NAME, 'w', encoding='utf-8') as f:
-            # نحذف فقط اللي مروا في الحلقة
-            actually_processed = emails[index:] 
-            for mail in actually_processed:
+            remaining_emails = emails[index:] 
+            for mail in remaining_emails:
                 f.write(mail + '\n')
         
-        print(f"🏁 اكتملت المهمة. تم معالجة {index} إيميل.")
+        print(f"🏁 اكتملت المهمة. تم معالجة {sent_count} إيميل بنجاح.")
 
 if __name__ == "__main__":
     run_job_search_bot()
