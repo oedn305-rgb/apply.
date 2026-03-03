@@ -13,37 +13,46 @@ EMAIL_PASS = os.getenv('EMAIL_PASS')
 MY_NAME = "مشعل المطيري"
 NOON_CODE = "MSHL1" 
 
-FILE_NAME = 'makkah_emails.txt' 
-CV_FILE_PATH = "cv.pdf.pdf" 
-# ضع هنا رابط المكنسة الحقيقي من نون
-NOON_PRODUCT_URL = "https://www.noon.com/saudi-ar/p-12345" 
+# --- أسماء الملفات الثلاثة ---
+FILE_MAKKAH = 'makkah_emails.txt'      # ملف وظائف مكة
+FILE_OLD = 'old_jobs_emails.txt'       # ملف الوظائف القديم
+FILE_MARKETING = 'million_emails.txt'  # ملف التسويق الجديد (الـ 47 دفعة)
+
+CV_FILE_PATH = "cv.pdf" 
+NOON_PRODUCT_URL = "https://www.noon.com" 
+
+def load_emails(file_path):
+    if os.path.exists(file_path):
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return [line.strip() for line in f if line.strip()]
+    return []
 
 def run_triple_rotation_bot():
-    if not os.path.exists(FILE_NAME):
-        print("❌ ملف الإيميلات غير موجود!")
+    # تحميل الإيميلات من الـ 3 مصادر
+    emails_makkah = load_emails(FILE_MAKKAH)
+    emails_old = load_emails(FILE_OLD)
+    emails_marketing = load_emails(FILE_MARKETING)
+
+    if not (emails_makkah or emails_old or emails_marketing):
+        print("❌ لا توجد إيميلات في أي ملف!")
         return
 
-    with open(FILE_NAME, 'r', encoding='utf-8') as f:
-        emails = [line.strip() for line in f if line.strip()]
-
-    # الحد اليومي 200 رسالة لسلامة الحساب
-    to_process = emails[:200]
-    
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.login(EMAIL_USER, EMAIL_PASS)
 
-    for index, email in enumerate(to_process):
+    # حلقة لإرسال 200 رسالة يومياً
+    for i in range(200):
         msg = MIMEMultipart()
         msg['From'] = f"{MY_NAME} <{EMAIL_USER}>"
-        msg['To'] = email
-
-        # --- نظام الترتيب الثلاثي (Modulo 3) ---
-        step = index % 3
-
-        if step == 0:
-            # 1. وظائف مكة (الجديدة)
-            msg['Subject'] = f"طلب عمل بمكة - موسم رمضان - {MY_NAME}"
-            body = f"السلام عليكم، معكم {MY_NAME}، أبحث عن فرصة عمل ميدانية بمكة المكرمة. التواصل: 0552145971"
+        
+        # التبديل بين الملفات (0: مكة، 1: قديم، 2: تسويق)
+        step = i % 3
+        
+        if step == 0 and emails_makkah:
+            target_email = emails_makkah.pop(0)
+            msg['Subject'] = f"طلب عمل ميداني بمكة - موسم رمضان - {MY_NAME}"
+            body = f"السلام عليكم، معكم {MY_NAME}، أبحث عن فرصة عمل بمكة. التواصل: 0552145971"
+            type_tag = "وظيفة مكة 🕋"
             # إرفاق الـ CV
             if os.path.exists(CV_FILE_PATH):
                 with open(CV_FILE_PATH, "rb") as attachment:
@@ -52,33 +61,35 @@ def run_triple_rotation_bot():
                     encoders.encode_base64(part)
                     part.add_header("Content-Disposition", f"attachment; filename=Mishal_CV.pdf")
                     msg.attach(part)
-            type_tag = "وظيفة مكة 🕋"
 
-        elif step == 1:
-            # 2. تسويق منتج نون (المكنسة)
-            msg['Subject'] = "🔥 عرض خاص: المكنسة اللاسلكية الذكية بخصم (MSHL1)"
-            body = f"أهلاً بك، وفر مجهودك مع المكنسة اللاسلكية للبيت والسيارة.\n💰 كود الخصم: {NOON_CODE}\n🔗 الرابط: {NOON_PRODUCT_URL}"
-            type_tag = "تسويق نون 💰"
-
-        else:
-            # 3. الاستهداف القديم (شركات ومقاولات)
-            msg['Subject'] = "استعلام عن فرص تعاون وعمل - {MY_NAME}"
-            body = f"تحية طيبة، أنا {MY_NAME}، مهتم بالعمل معكم في مشاريعكم القائمة بمكة. رقم التواصل: 0552145971"
+        elif step == 1 and emails_old:
+            target_email = emails_old.pop(0)
+            msg['Subject'] = f"استفسار عن فرص تعاون - {MY_NAME}"
+            body = f"تحية طيبة، أنا {MY_NAME}، سبق وتواصلت معكم ومهتم بالعمل في مشاريعكم القائمة. رقمي: 0552145971"
             type_tag = "استهداف قديم 🏗️"
 
+        elif emails_marketing:
+            target_email = emails_marketing.pop(0)
+            msg['Subject'] = "🔥 عرض خاص: خصم إضافي من نون حصرياً (MSHL1)"
+            body = f"أهلاً بك، وفر مجهودك ومالك مع عروض نون القوية.\n💰 كود الخصم الإضافي: {NOON_CODE}\n🔗 تسوق الآن: {NOON_PRODUCT_URL}"
+            type_tag = "تسويق نون الجديد 💰"
+        else:
+            continue # إذا خلص ملف، يكمل للي بعده
+
+        msg['To'] = target_email
         msg.attach(MIMEText(body, 'plain', 'utf-8'))
 
         try:
             server.send_message(msg)
-            print(f"✅ [{index+1}/200] تم إرسال ({type_tag}) إلى: {email}")
+            print(f"✅ [{i+1}/200] تم إرسال ({type_tag}) إلى: {target_email}")
         except Exception as e:
-            print(f"❌ خطأ مع {email}: {e}")
+            print(f"❌ خطأ مع {target_email}: {e}")
 
-        # وقت انتظار ذكي (بين 45 و 90 ثانية) لمنع الحظر
+        # وقت انتظار ذكي (45-90 ثانية) لحماية حسابك
         time.sleep(random.randint(45, 90))
 
     server.quit()
-    print("🚀 تم إكمال الـ 200 رسالة لليوم بنجاح بالترتيب الثلاثي!")
+    print("🚀 تم إنجاز الـ 200 رسالة بنجاح!")
 
 if __name__ == "__main__":
     run_triple_rotation_bot()
